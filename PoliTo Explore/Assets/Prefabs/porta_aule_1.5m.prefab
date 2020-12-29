@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4528223283459375885}
   - component: {fileID: 682471819259727016}
   - component: {fileID: 3358655943417018466}
+  - component: {fileID: 4220347540312341154}
   m_Layer: 0
   m_Name: porta_aule_1.5m
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4220347540312341154
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3863151392114842039}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5000004, y: 2.15, z: 0.31355396}
+  m_Center: {x: 0, y: 1.075, z: 0.05677695}

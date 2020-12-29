@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 8411456040481519992}
   - component: {fileID: 4833669885902583517}
   - component: {fileID: 7273404036318560791}
+  - component: {fileID: 1057900034736690309}
+  - component: {fileID: 8853924041670929677}
+  - component: {fileID: 6645685109163265500}
   m_Layer: 0
   m_Name: ingresso_corridoio_nasa
   m_TagString: Untagged
@@ -79,3 +82,42 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1057900034736690309
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219059887039226818}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7049513, y: 4.7, z: 1}
+  m_Center: {x: 1.8475242, y: 2.35, z: 0}
+--- !u!65 &8853924041670929677
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219059887039226818}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.66568756, y: 4.7, z: 1}
+  m_Center: {x: -1.861126, y: 2.35, z: 0}
+--- !u!65 &6645685109163265500
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9219059887039226818}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.3999996, y: 0.9940431, z: 1}
+  m_Center: {x: 0, y: 4.202978, z: 0}

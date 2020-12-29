@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 5227159411011162033}
   - component: {fileID: 9161801994416291860}
   - component: {fileID: 6395592054247191774}
+  - component: {fileID: 275510659725984722}
+  - component: {fileID: 4056862238641199415}
+  - component: {fileID: 7553847213766974341}
   m_Layer: 0
   m_Name: porta_3.4m
   m_TagString: Untagged
@@ -79,3 +82,42 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &275510659725984722
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4882264176687928587}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.23303032, y: 4.7, z: 1.0061378}
+  m_Center: {x: 1.601428, y: 2.35, z: -0.003068924}
+--- !u!65 &4056862238641199415
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4882264176687928587}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.19546032, y: 4.7, z: 1}
+  m_Center: {x: -1.6022696, y: 2.35, z: 0}
+--- !u!65 &7553847213766974341
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4882264176687928587}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.3999999, y: 2.5442185, z: 1}
+  m_Center: {x: 0, y: 3.4278905, z: 0}

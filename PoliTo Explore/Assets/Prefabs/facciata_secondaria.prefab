@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 8195233146819071247}
   - component: {fileID: 5049813593015927466}
   - component: {fileID: 7057279141061047904}
+  - component: {fileID: 3050210996442534771}
+  - component: {fileID: 3162830952674747203}
+  - component: {fileID: 4099929996802586312}
   m_Layer: 0
   m_Name: facciata_secondaria
   m_TagString: Untagged
@@ -79,3 +82,42 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &3050210996442534771
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8858722909310949301}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.05159, y: 27, z: 1}
+  m_Center: {x: 21.974205, y: 13.5, z: 0}
+--- !u!65 &3162830952674747203
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8858722909310949301}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.0138054, y: 27, z: 1}
+  m_Center: {x: -21.993097, y: 13.5, z: 0}
+--- !u!65 &4099929996802586312
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8858722909310949301}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 50, y: 22.532196, z: 1}
+  m_Center: {x: -0, y: 15.733902, z: 0}

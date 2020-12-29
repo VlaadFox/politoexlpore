@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 748627037482893207}
   - component: {fileID: 4453061433191870514}
   - component: {fileID: 1884902190858126584}
+  - component: {fileID: 7484273894942328375}
   m_Layer: 0
   m_Name: blocco_orizz_facciata_laterale_cortile_secondario
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &7484273894942328375
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83449627115513133}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.0000007, y: 1.7, z: 1.0000002}
+  m_Center: {x: -0.00000041723263, y: 4.65, z: 0}

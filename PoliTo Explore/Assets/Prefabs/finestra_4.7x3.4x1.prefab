@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4958055789388765438}
   - component: {fileID: 8314021967054837595}
   - component: {fileID: 6090451797288805265}
+  - component: {fileID: 4728991686062199268}
   m_Layer: 0
   m_Name: finestra_4.7x3.4x1
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4728991686062199268
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5730089266779144772}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.4000006, y: 4.7000003, z: 1.0000002}
+  m_Center: {x: 0, y: 2.3499997, z: 0}

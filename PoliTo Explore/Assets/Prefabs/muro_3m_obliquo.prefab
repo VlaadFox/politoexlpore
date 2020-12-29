@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 2617414014107211414}
   - component: {fileID: 1440368722915252531}
   - component: {fileID: 3754243906529832441}
+  - component: {fileID: 5689537058398345506}
+  - component: {fileID: -7316229779532998896}
   m_Layer: 0
   m_Name: muro_3m_obliquo
   m_TagString: Untagged
@@ -79,3 +81,29 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &5689537058398345506
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3393810319054539820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5851773, y: 4.7, z: 1.8019261}
+  m_Center: {x: -0.50395566, y: 2.35, z: -0.28204966}
+--- !u!65 &-7316229779532998896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3393810319054539820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0288211, y: 4.7, z: 0.6129679}
+  m_Center: {x: 0.787121, y: 2.35, z: 0.87652874}

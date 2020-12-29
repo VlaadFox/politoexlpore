@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1868681526547902238}
   - component: {fileID: 3333007217924759739}
   - component: {fileID: 695189514781922417}
+  - component: {fileID: 6311945956613959629}
   m_Layer: 0
   m_Name: muro_porta_1.5m_rialz
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6311945956613959629
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343536542769526180}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9499999, y: 1, z: 1.5}
+  m_Center: {x: 0, y: 0.5, z: 0}

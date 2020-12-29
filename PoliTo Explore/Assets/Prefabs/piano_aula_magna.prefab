@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 4419033539624354987}
   - component: {fileID: 791600002577713934}
   - component: {fileID: 3249526677822717892}
+  - component: {fileID: 1900211502297686898}
+  - component: {fileID: 7481053219081759316}
+  - component: {fileID: 7609748098302647121}
   m_Layer: 0
   m_Name: piano_aula_magna
   m_TagString: Untagged
@@ -79,3 +82,42 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1900211502297686898
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3897970187741732369}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.9187565, y: 1.4, z: 5.1000004}
+  m_Center: {x: -16.540627, y: 0.7, z: 0}
+--- !u!65 &7481053219081759316
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3897970187741732369}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.020649, y: 1.4, z: 5.1000004}
+  m_Center: {x: 16.489677, y: 0.7, z: 0}
+--- !u!65 &7609748098302647121
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3897970187741732369}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 42.000004, y: 1.4, z: 3.0743685}
+  m_Center: {x: 0, y: 0.7, z: -1.012816}

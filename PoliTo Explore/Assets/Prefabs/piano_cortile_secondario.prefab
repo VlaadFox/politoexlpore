@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5175767281216415599}
   - component: {fileID: 8105317687631112394}
   - component: {fileID: 6313809422789483520}
+  - component: {fileID: 1149489609154956938}
   m_Layer: 0
   m_Name: piano_cortile_secondario
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1149489609154956938
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5521365073451171285}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 34.000008, y: 0.79999995, z: 4.800001}
+  m_Center: {x: 0, y: 0.39999998, z: 0}

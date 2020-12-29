@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6641965754958875503}
   - component: {fileID: 7746995362403779786}
   - component: {fileID: 5505136477521965056}
+  - component: {fileID: 7828514949929517309}
   m_Layer: 0
   m_Name: muro_continuazione_laterale
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &7828514949929517309
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6297949849892573653}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.000001, y: 8, z: 40}
+  m_Center: {x: -0.00000047683716, y: 4, z: 0}

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7596190192102331243}
   - component: {fileID: 6828808536623930574}
   - component: {fileID: 8728040292211435524}
+  - component: {fileID: -3194517265041433479}
   m_Layer: 0
   m_Name: blocco_semplice_aule
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &-3194517265041433479
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7070869217664338385}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8750014, y: 4.7, z: 1.0000002}
+  m_Center: {x: 0, y: 2.35, z: 0}

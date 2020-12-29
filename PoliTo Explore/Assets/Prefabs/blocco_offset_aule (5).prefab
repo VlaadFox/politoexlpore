@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9062918615944170175}
   - component: {fileID: 5362150962598216986}
   - component: {fileID: 7894485421881520592}
+  - component: {fileID: 4125439182125775347}
   m_Layer: 0
   m_Name: blocco_offset_aule (5)
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4125439182125775347
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8542806062444630021}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5000004, y: 4.7, z: 1.0000002}
+  m_Center: {x: 0, y: 2.35, z: 0}

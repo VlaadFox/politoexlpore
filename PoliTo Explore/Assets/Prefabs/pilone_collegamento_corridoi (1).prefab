@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3278421683086216530}
   - component: {fileID: 1932203342411711223}
   - component: {fileID: 4410264258681845309}
+  - component: {fileID: 8656433055576970961}
   m_Layer: 0
   m_Name: pilone_collegamento_corridoi (1)
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8656433055576970961
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2752996290294618088}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4.0999994, z: 1.3}
+  m_Center: {x: 0, y: 2.0500002, z: 0}

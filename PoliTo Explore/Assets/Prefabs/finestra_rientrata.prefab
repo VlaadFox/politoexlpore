@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 2268427326606384372}
   - component: {fileID: 2942197698115572561}
   - component: {fileID: 1094443420962154395}
+  - component: {fileID: 2903820833849149063}
+  - component: {fileID: 4868618920943987316}
+  - component: {fileID: 7918361219022286693}
   m_Layer: 0
   m_Name: finestra_rientrata
   m_TagString: Untagged
@@ -79,3 +82,42 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2903820833849149063
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454876045354845774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.316911, y: 4.1, z: 1.0000002}
+  m_Center: {x: 0.7415449, y: 2.05, z: 3.4325612e-15}
+--- !u!65 &4868618920943987316
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454876045354845774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3127407, y: 4.1, z: 1.0000002}
+  m_Center: {x: -0.74363005, y: 2.05, z: -3.462193e-15}
+--- !u!65 &7918361219022286693
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454876045354845774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8000004, y: 4.1, z: 0.47227663}
+  m_Center: {x: 1.969898e-16, y: 2.05, z: -0.26386186}

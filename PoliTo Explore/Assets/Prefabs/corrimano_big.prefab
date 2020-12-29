@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8686947221092669066}
   - component: {fileID: 5702093610900822319}
   - component: {fileID: 7549458648860487141}
+  - component: {fileID: 7158793344405079614}
+  - component: {fileID: 2442714586826839327}
   m_Layer: 0
   m_Name: corrimano_big
   m_TagString: Untagged
@@ -79,3 +81,29 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &7158793344405079614
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342334281216674864}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.10000001, y: 2.4143708, z: 2.341006}
+  m_Center: {x: 0.00000008009374, y: 1.2071851, z: -0.85688937}
+--- !u!65 &2442714586826839327
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8342334281216674864}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.10000001, y: 2.4143708, z: 2.341006}
+  m_Center: {x: 0.00000008009374, y: 1.2071851, z: -0.85688937}

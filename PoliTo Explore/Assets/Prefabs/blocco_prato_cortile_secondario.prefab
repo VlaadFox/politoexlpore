@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 532580094001297872}
   - component: {fileID: 3516116497718785653}
   - component: {fileID: 1670613475186688703}
+  - component: {fileID: 7688443368655448432}
   m_Layer: 0
   m_Name: blocco_prato_cortile_secondario
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &7688443368655448432
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878143011388941162}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.000002, y: 0.39999998, z: 1.5000004}
+  m_Center: {x: 0, y: 0.19999999, z: 0}

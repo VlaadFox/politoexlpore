@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 6923091279083542458}
   - component: {fileID: 6321955756022044703}
   - component: {fileID: 8095482057880169685}
+  - component: {fileID: 3567415102956158366}
+  - component: {fileID: 8732258689221013455}
+  - component: {fileID: 2537207197919188526}
   m_Layer: 0
   m_Name: ingr_lat_aula_magna
   m_TagString: Untagged
@@ -79,3 +82,42 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &3567415102956158366
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7734952675469511936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.18463393, y: 4.1, z: 0.5000001}
+  m_Center: {x: -1.6076835, y: 2.05, z: 5.5751454e-15}
+--- !u!65 &8732258689221013455
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7734952675469511936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.488141, y: 4.1, z: 0.5000001}
+  m_Center: {x: 0.9559301, y: 2.05, z: -6.2626736e-16}
+--- !u!65 &2537207197919188526
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7734952675469511936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.4000006, y: 1.9201336, z: 0.5000001}
+  m_Center: {x: 0, y: 3.139933, z: 0}
