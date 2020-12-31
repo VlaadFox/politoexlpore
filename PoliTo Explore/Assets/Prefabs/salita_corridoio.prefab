@@ -11,6 +11,11 @@ GameObject:
   - component: {fileID: 5557109421676078723}
   - component: {fileID: 8840858567729064230}
   - component: {fileID: 6725560135045176812}
+  - component: {fileID: -1519562929056110184}
+  - component: {fileID: 7202037647232435966}
+  - component: {fileID: 4871907100043722170}
+  - component: {fileID: 1456014812737973490}
+  - component: {fileID: 1041473008504604564}
   m_Layer: 0
   m_Name: salita_corridoio
   m_TagString: Untagged
@@ -79,3 +84,68 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &-1519562929056110184
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5067958326211050553}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.6, z: 0.6236954}
+  m_Center: {x: 0, y: 0.3, z: -1.4381523}
+--- !u!65 &7202037647232435966
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5067958326211050553}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.42913073, z: 1.5136414}
+  m_Center: {x: 0, y: 0.21456537, z: -0.9931793}
+--- !u!65 &4871907100043722170
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5067958326211050553}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.28673953, z: 2.1544037}
+  m_Center: {x: 0, y: 0.14336976, z: -0.67279816}
+--- !u!65 &1456014812737973490
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5067958326211050553}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.19418544, z: 2.6314163}
+  m_Center: {x: 0, y: 0.09709272, z: -0.43429184}
+--- !u!65 &1041473008504604564
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5067958326211050553}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.08739203, z: 3.5}
+  m_Center: {x: 0, y: 0.043696016, z: 0}

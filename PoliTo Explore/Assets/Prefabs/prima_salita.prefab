@@ -10,6 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6032819980423977648}
   - component: {fileID: -7684924579313312315}
+  - component: {fileID: 1107107718868849327}
+  - component: {fileID: 907456871846662747}
+  - component: {fileID: -5179894911770211966}
   m_Layer: 0
   m_Name: prima_salita
   m_TagString: Untagged
@@ -41,10 +44,49 @@ BoxCollider:
   m_GameObject: {fileID: 6409520998327812106}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.16107559, z: 2.30896}
+  m_Center: {x: 0, y: 0.050573587, z: 1.4993591}
+--- !u!65 &1107107718868849327
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6409520998327812106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.5415249, z: 1.4086914}
+  m_Center: {x: 0, y: 0.24079823, z: -0.6821823}
+--- !u!65 &907456871846662747
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6409520998327812106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.7882414, z: 1.261795}
+  m_Center: {x: 0, y: 0.34982252, z: -2.0348434}
+--- !u!65 &-5179894911770211966
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6409520998327812106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.34317398, z: 1.3284149}
+  m_Center: {x: 0, y: 0.15685391, z: 0.884758}
 --- !u!1 &8207932607847091722
 GameObject:
   m_ObjectHideFlags: 0
