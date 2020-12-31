@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 3516116497718785653}
   - component: {fileID: 1670613475186688703}
   - component: {fileID: 7688443368655448432}
+  - component: {fileID: 8045295616194485278}
+  - component: {fileID: 7058020211810425564}
+  - component: {fileID: 3520881406640568301}
   m_Layer: 0
   m_Name: blocco_prato_cortile_secondario
   m_TagString: Untagged
@@ -91,5 +94,44 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.000002, y: 0.39999998, z: 1.5000004}
-  m_Center: {x: 0, y: 0.19999999, z: 0}
+  m_Size: {x: 7.000002, y: 0.29377973, z: 0.75472695}
+  m_Center: {x: 1.7427745e-15, y: 0.14688987, z: -0.3726368}
+--- !u!65 &8045295616194485278
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878143011388941162}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.000002, y: 0.44644058, z: 0.6001661}
+  m_Center: {x: 2.443868e-16, y: 0.22322029, z: 0.10780278}
+--- !u!65 &7058020211810425564
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878143011388941162}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.000002, y: 0.5430163, z: 0.37425032}
+  m_Center: {x: -6.7297106e-16, y: 0.27150816, z: 0.547356}
+--- !u!65 &3520881406640568301
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878143011388941162}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.000002, y: 0.1810149, z: 0.3660163}
+  m_Center: {x: -3.4509376e-15, y: 0.09050745, z: -0.7571616}
