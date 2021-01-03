@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 546476491596567557}
   - component: {fileID: 3475269196994583456}
   - component: {fileID: 1719906278813790058}
+  - component: {fileID: 2812483951392425606}
   m_Layer: 0
   m_Name: muro_3.4x3x1 (1)
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2812483951392425606
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927365309286272703}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.0000007, y: 3.3999999, z: 1.0000002}
+  m_Center: {x: 0, y: 1.6999999, z: 0}

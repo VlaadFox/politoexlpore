@@ -11,6 +11,10 @@ GameObject:
   - component: {fileID: 9042265900725624414}
   - component: {fileID: 5391740557979537915}
   - component: {fileID: 7869961396283188529}
+  - component: {fileID: 6197952156285167888}
+  - component: {fileID: 6268695058098615339}
+  - component: {fileID: 8555886065413355800}
+  - component: {fileID: 5859926011669421626}
   m_Layer: 0
   m_Name: muro_ascensori_segreteria
   m_TagString: Untagged
@@ -79,3 +83,55 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6197952156285167888
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518352267698537700}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7608758, y: 5, z: 1.0000002}
+  m_Center: {x: -2.6195638, y: 2.5, z: 8.804538e-15}
+--- !u!65 &6268695058098615339
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518352267698537700}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7639229, y: 5, z: 1.0000002}
+  m_Center: {x: 2.61804, y: 2.5, z: -8.782885e-15}
+--- !u!65 &8555886065413355800
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518352267698537700}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.54832447, y: 5, z: 1.0000002}
+  m_Center: {x: 0.00047539175, y: 2.5, z: 1.8316922e-19}
+--- !u!65 &5859926011669421626
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518352267698537700}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.000002, y: 2.8368673, z: 1.0000002}
+  m_Center: {x: 0, y: 3.5815663, z: 0}
