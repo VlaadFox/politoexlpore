@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6462735384374726149}
   - component: {fileID: 7935311765843198368}
   - component: {fileID: 5330875800577062250}
+  - component: {fileID: 6587519954297388907}
   m_Layer: 0
   m_Name: porta_maniglione
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6587519954297388907
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5979635970531693759}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 2.15, z: 0.4127103}
+  m_Center: {x: 0, y: 1.075, z: 0.0071987137}

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3313817374900338139}
   - component: {fileID: 1896807972491539070}
   - component: {fileID: 4446785134081623732}
+  - component: {fileID: 4931491798784136711}
   m_Layer: 0
   m_Name: solo_finestra_aule_s 1
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4931491798784136711
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2789658863505500001}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4000006, y: 1.9, z: 0.20000003}
+  m_Center: {x: 0, y: 0.95, z: 0}

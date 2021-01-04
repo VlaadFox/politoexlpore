@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 4497142399418519707}
   - component: {fileID: 704484287927246654}
   - component: {fileID: 3324259005189041140}
+  - component: {fileID: 353487145447663434}
+  - component: {fileID: 8947327593602378394}
+  - component: {fileID: 4825793760931420086}
   m_Layer: 0
   m_Name: corrimano_interno_segreteria
   m_TagString: Untagged
@@ -79,3 +82,42 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &353487145447663434
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3828868390961809953}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 1.2259158, z: 20.000004}
+  m_Center: {x: -0.000000029802322, y: 0.6129579, z: 1.009742e-28}
+--- !u!65 &8947327593602378394
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3828868390961809953}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 2.8000002, z: 15.487731}
+  m_Center: {x: -0.000000029802322, y: 1.4000001, z: -2.2561383}
+--- !u!65 &4825793760931420086
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3828868390961809953}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 2.0966854, z: 16.767252}
+  m_Center: {x: -0.000000029802314, y: 1.0483427, z: -1.6163762}

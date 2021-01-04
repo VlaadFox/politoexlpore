@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 97775574726794696}
   - component: {fileID: 3959937069513691757}
   - component: {fileID: 1229608598046451367}
+  - component: {fileID: 3721031231055737382}
   m_Layer: 0
   m_Name: porta_finestra_aule_s
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &3721031231055737382
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725236707455960946}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.75, y: 2.6, z: 0.19999999}
+  m_Center: {x: 0, y: 1.3, z: 0}

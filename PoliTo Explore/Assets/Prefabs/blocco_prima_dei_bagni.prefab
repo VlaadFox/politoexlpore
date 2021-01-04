@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3867549264376745812}
   - component: {fileID: 145117967652274417}
   - component: {fileID: 2731265276118053947}
+  - component: {fileID: -1020928092402304169}
   m_Layer: 0
   m_Name: blocco_prima_dei_bagni
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &-1020928092402304169
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4532762232186967534}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 2.15, z: 1.8}
+  m_Center: {x: 0, y: 1.075, z: 0}
