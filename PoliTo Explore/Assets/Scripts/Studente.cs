@@ -33,7 +33,7 @@ public class Studente : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance && _navMeshAgent.velocity.sqrMagnitude <= 0f){
+        if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance && _navMeshAgent.velocity.sqrMagnitude <= 1f){
             Destroy(this.gameObject);
         }
 
