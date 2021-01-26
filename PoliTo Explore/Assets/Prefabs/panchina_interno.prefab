@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 4471696091361696808}
   - component: {fileID: 1407680760635702468}
   - component: {fileID: 1923237715353530921}
+  - component: {fileID: -5851092504170383268}
+  - component: {fileID: -8013376215843710045}
   m_Layer: 0
   m_Name: panchina_interno
   m_TagString: Untagged
@@ -92,8 +94,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.0079045, y: 0.7018557, z: 0.70073855}
-  m_Center: {x: -0.003951788, y: 0.35092762, z: -0.14963114}
+  m_Size: {x: 5.0079045, y: 0.5166219, z: 0.70073855}
+  m_Center: {x: -0.003951788, y: 0.2583107, z: -0.14963114}
 --- !u!65 &1923237715353530921
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -107,3 +109,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5, y: 1.2033195, z: 0.066639364}
   m_Center: {x: 0.00000047683716, y: 0.60165954, z: -0.46668074}
+--- !u!65 &-5851092504170383268
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2670172333640154621}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5000615, y: 0.7009674, z: 0.70073855}
+  m_Center: {x: 2.2499697, y: 0.35048345, z: -0.14963114}
+--- !u!65 &-8013376215843710045
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2670172333640154621}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5103054, y: 0.7009674, z: 0.70073813}
+  m_Center: {x: -2.248868, y: 0.35048345, z: -0.14963093}
