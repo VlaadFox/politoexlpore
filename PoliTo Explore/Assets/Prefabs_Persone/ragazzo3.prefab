@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4122285660371671860}
   - component: {fileID: 1052319913985496209}
   - component: {fileID: 2989932940642492507}
-  - component: {fileID: -622711628139679016}
   m_Layer: 0
   m_Name: ragazzo3
   m_TagString: Untagged
@@ -80,16 +79,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &-622711628139679016
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3638517464617419150}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.8792355, y: 1.8828557, z: 0.36723065}
-  m_Center: {x: 0, y: 0.94142747, z: 0.025290452}
