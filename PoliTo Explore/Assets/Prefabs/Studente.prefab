@@ -132,6 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _NofSpawnpoints: 5
+  SpawnManager: {fileID: 11400000, guid: d615e96070e46e547b369d788763e87e, type: 2}
 --- !u!1 &3524606099913448099
 GameObject:
   m_ObjectHideFlags: 0

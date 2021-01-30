@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class Cestino : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("COllisione");
+        if (other.gameObject.GetComponent<Grabbable>() != null)
+        {
+            Debug.Log("COllisione con grabbable");
+            Destroy(other.gameObject);
+
+            //animazione esultanza degli studenti
+        }
+    }
+        // Start is called before the first frame update
+        void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+ 
 }
