@@ -7,6 +7,7 @@ public class Studente : MonoBehaviour
 {
     [SerializeField] private int _NofSpawnpoints;
     [SerializeField] private SpawnManagerScriptableObject SpawnManager;
+    public EventsManager eventsManager;
 
     // private List<Spawner> _spawnpoints;
     private Spawner[] _spawnpoints;
@@ -18,6 +19,11 @@ public class Studente : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (eventsManager == null) {
+            eventsManager = GameObject.FindObjectOfType<EventsManager>();
+        }
+        eventsManager.canestroEvent += Cheer;
+
         _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 
         _spawnpoints = SpawnManager.GetSpawners();
@@ -40,6 +46,12 @@ public class Studente : MonoBehaviour
             Destroy(this.gameObject);
         }
 
+    }
+
+    private void Cheer()
+    {
+        //animazione di gioia
+        Debug.Log("Lo studente esulta");
     }
 
     public void SpawnStudent()
