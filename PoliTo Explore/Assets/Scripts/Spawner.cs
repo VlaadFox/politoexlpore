@@ -17,14 +17,15 @@ public class Spawner : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E)){
-            SpawnStudent();
+            //SpawnStudent();
         }
     }
-
 
     public void SpawnStudent()
     {
         GameObject go = Instantiate(ObjectToSpawn);
         go.transform.position = transform.position;
     }
+
+
 }

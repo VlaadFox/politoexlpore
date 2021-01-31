@@ -1258,6 +1258,7 @@ GameObject:
   - component: {fileID: 360463904068737278}
   - component: {fileID: 276652055260081725}
   - component: {fileID: 6259091251700370939}
+  - component: {fileID: 1995895519049547132}
   m_Layer: 0
   m_Name: ragazzo
   m_TagString: Untagged
@@ -1377,6 +1378,21 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
+--- !u!114 &1995895519049547132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5897519799282962105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1862430299113054c9599fddab1b6f0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _NofSpawnpoints: 5
+  SpawnManager: {fileID: 11400000, guid: d615e96070e46e547b369d788763e87e, type: 2}
+  eventsManager: {fileID: 0}
 --- !u!1 &5916703308096597474
 GameObject:
   m_ObjectHideFlags: 0

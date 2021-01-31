@@ -5,6 +5,7 @@ public class SpawnManagerScriptableObject : ScriptableObject
 {
     
     public Spawner[] spawnPoints;
+    public GameObject[] objectsToSpawn;
 
 
    
@@ -30,5 +31,10 @@ public class SpawnManagerScriptableObject : ScriptableObject
         }
         Debug.Log($"Numero di Spawner (scriptable get):{ spawnPoints.Length} ,    {spawnPoints[0]}");
         return spawnPoints;
+    }
+
+    public GameObject[] GetObjectsToSpawn()
+    {
+        return objectsToSpawn;
     }
 }
