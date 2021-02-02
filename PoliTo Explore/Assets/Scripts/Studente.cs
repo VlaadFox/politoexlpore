@@ -15,6 +15,7 @@ public class Studente : MonoBehaviour
 
     private int _index;
     private float _speed;
+    float cont = 1.85f;
 
 
     // Start is called before the first frame update
@@ -22,11 +23,13 @@ public class Studente : MonoBehaviour
     {
         if (eventsManager == null) {
             eventsManager = GameObject.FindObjectOfType<EventsManager>();
+            Debug.Log($"Event Manager:{eventsManager}");
         }
         eventsManager.canestroEvent += Cheer;
         _animator = GetComponent<Animator>();
 
         _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        Debug.Log($"NavMeshAgent:{_navMeshAgent}");
 
         _spawnpoints = SpawnManager.GetSpawners();
         Debug.Log(_spawnpoints[1]);
@@ -48,6 +51,13 @@ public class Studente : MonoBehaviour
             Destroy(this.gameObject);
             //TODO: dovrebbe spawnarne un altro dalla stessa posizione
         }
+
+       
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Cheer();
+        }
+
         UpdateAnimations();
 
     }
@@ -57,20 +67,22 @@ public class Studente : MonoBehaviour
         //animazione di gioia
         Debug.Log("Lo studente esulta");
         _animator.SetBool("clapping", true);
+        _navMeshAgent.isStopped = true;
     }
 
     private void UpdateAnimations()
     {
-        int cont = 0;
+        
         _speed = Mathf.Clamp(_navMeshAgent.desiredVelocity.magnitude, 0f, 1f);
-        _animator.SetFloat("clapping", _speed);
+        _animator.SetFloat("speed", _speed);
         //Debug.Log($"Velocity:  {_navMeshAgent.desiredVelocity}");
         if (_animator.GetBool("clapping"))  {
-            if (cont < 10){
-                cont++;
+            if (cont > 0f){
+                cont-=Time.deltaTime;
             }else {
                 _animator.SetBool("clapping", false);
-                cont = 0;
+                _navMeshAgent.isStopped = false;
+                cont = 1.85f;
             }
         }
 
