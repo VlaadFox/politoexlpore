@@ -12,4 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2664667d04773f459edabe9f71aee64, type: 3}
   m_Name: Prova
   m_EditorClassIdentifier: 
-  spawnPoints: []
+  spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  objectsToSpawn:
+  - {fileID: 5897519799282962105, guid: 74227393c1b3b8448a80491b51507854, type: 3}
