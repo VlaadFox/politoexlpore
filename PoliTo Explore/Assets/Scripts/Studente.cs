@@ -9,6 +9,7 @@ public class Studente : MonoBehaviour
     [SerializeField] private SpawnManagerScriptableObject SpawnManager;
     public EventsManager eventsManager;
 
+
     private Spawner[] _spawnpoints;
     private UnityEngine.AI.NavMeshAgent _navMeshAgent;
     private Animator _animator;
@@ -46,12 +47,6 @@ public class Studente : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance && _navMeshAgent.velocity.sqrMagnitude <= 0.5f){
-            Debug.Log("Arrivato a destinazione, autodistruzione");
-            Destroy(this.gameObject);
-            //TODO: dovrebbe spawnarne un altro dalla stessa posizione
-        }
-
        
         if (Input.GetKeyDown(KeyCode.C))
         {
@@ -60,14 +55,23 @@ public class Studente : MonoBehaviour
 
         UpdateAnimations();
 
+        if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance && _navMeshAgent.velocity.sqrMagnitude <= 0.5f)
+        {
+            Debug.Log("Arrivato a destinazione, autodistruzione");
+            Destroy(this.gameObject);
+            //TODO: dovrebbe spawnarne un altro dalla stessa posizione
+        }
     }
 
     private void Cheer()
     {
         //animazione di gioia
         Debug.Log("Lo studente esulta");
-        _animator.SetBool("clapping", true);
-        _navMeshAgent.isStopped = true;
+        //Debug.Log(_animator);
+        if(_animator != null)
+            _animator.SetBool("clapping", true);
+        if (_navMeshAgent != null)
+            _navMeshAgent.isStopped = true;
     }
 
     private void UpdateAnimations()
