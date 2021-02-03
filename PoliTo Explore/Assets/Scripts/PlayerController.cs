@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] bool lockCursor = true;
 
+    public GameObject miniMap, bigMap, handGrab;
+
     float cameraPitch = 0.0f;
     float velocityY = 0.0f;
 
@@ -37,6 +39,14 @@ public class PlayerController : MonoBehaviour
     {
         UpdateMouseLook();
         UpdateMovement();
+
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            if (bigMap.active) { downMap(); }
+            else
+            { mapOnScreen(); }
+        }
+
     }
 
     void UpdateMouseLook()
@@ -71,4 +81,18 @@ public class PlayerController : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
     }
 
+    void downMap()
+    {
+        bigMap.SetActive(false);
+        Time.timeScale = 1f;
+        miniMap.SetActive(true);
+        handGrab.SetActive(true);
+    }
+    void mapOnScreen()
+    {
+        bigMap.SetActive(true);
+        Time.timeScale = 0.02f;
+        miniMap.SetActive(false);
+        handGrab.SetActive(false);
+    }
 }
