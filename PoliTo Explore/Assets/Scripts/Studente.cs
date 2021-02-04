@@ -24,7 +24,7 @@ public class Studente : MonoBehaviour
     {
         if (eventsManager == null) {
             eventsManager = GameObject.FindObjectOfType<EventsManager>();
-            Debug.Log($"Event Manager:{eventsManager}");
+            //Debug.Log($"Event Manager:{eventsManager}");
         }
         eventsManager.canestroEvent += Cheer;
         _animator = GetComponent<Animator>();

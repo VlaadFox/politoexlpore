@@ -51,11 +51,13 @@ public class FPSInteractionManager : MonoBehaviour
         if (Physics.Raycast(ray, out hit, _interactionDistance))
         {
             //Check if is interactable
-            _pointingInteractable = hit.transform.GetComponent<Interactable>();
+            _pointingInteractable = hit.transform.GetComponent<Discoverable>();
             if (_pointingInteractable)
-            { 
-                if(Input.GetMouseButtonDown(1))
+            {
+                if (Input.GetKeyDown(KeyCode.E))
+                {
                     _pointingInteractable.Interact(gameObject);
+                }
             }
 
             //Check if is grabbable
@@ -80,10 +82,11 @@ public class FPSInteractionManager : MonoBehaviour
 
     private void UpdateUITarget()
     {
-        if (_pointingGrabbable)
+        if (_pointingGrabbable || _pointingInteractable)
             _target.color = Color.green;
         else
-            _target.color = Color.red;
+            _target.color = new Color(_target.color.r, _target.color.g, _target.color.b, 0f);
+        
     }
 
     private void Drop()
