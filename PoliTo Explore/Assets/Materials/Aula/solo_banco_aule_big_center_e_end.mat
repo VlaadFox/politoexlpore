@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: base_aula
+  m_Name: solo_banco_aule_big_center_e_end
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 5c5b2dbd59a5083489b2f959875c37df, type: 3}
+        m_Texture: {fileID: 2800000, guid: 30fd20e4c70c7d441850cb6ae1de067e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -40,19 +40,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2bf59649724b2ab4e89c6c67dacde72a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 65e9a4e33e4331d418f189c05481da74, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 02981cf7c0c7dee4ea48aff63ba6b772, type: 3}
+        m_Texture: {fileID: 2800000, guid: 21f3e1c8692ed204d8d30e4fcdd5bb93, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: c8ec07f1479bcf14391c8176291f1ef4, type: 3}
+        m_Texture: {fileID: 2800000, guid: c8141fbd2ddfa14439da41b4611921e9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 8a2e0a740b227b0448b101501c888861, type: 3}
+        m_Texture: {fileID: 2800000, guid: b3b4d74b9d2d2b545a4fa0179c5684e4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -73,5 +73,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0.92156863, b: 0.7411765, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
