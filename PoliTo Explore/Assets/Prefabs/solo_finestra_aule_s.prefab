@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4446785134081623732}
   - component: {fileID: 4931491798784136711}
   m_Layer: 0
-  m_Name: solo_finestra_aule_s 1
+  m_Name: solo_finestra_aule_s
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: 3f7c57e3c4e115c42a1d8efbdc71cdfb, type: 3}
+  - {fileID: 2100000, guid: 8f436cf9a8ba32b48a315142273d0351, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
