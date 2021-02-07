@@ -4,59 +4,36 @@ using UnityEngine;
 
 public class Auto_door : MonoBehaviour
 {
+    public GameObject trigger, leftDoor, rightDoor;
 
-    public GameObject movingDoor;
-
-    public float maximumOpening = 1f;
-    public float maximumClosing = 0f;
-
-    public float movementSpeed = 1f;
-
-    bool playerIsHere;
-
-    // Start is called before the first frame update
+    Animator leftAnim, rightAnim;
     void Start()
     {
-        playerIsHere = false;
+        leftAnim = leftDoor.GetComponent<Animator>();
+        rightAnim = rightDoor.GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider coll)
     {
-        if (playerIsHere)
+        if (coll.gameObject.tag == "Player")
         {
-            if (movingDoor.transform.position.x < maximumOpening)
-            {
-                movingDoor.transform.Translate(movementSpeed * Time.deltaTime, 0f, 0f);
-                if (movingDoor.transform.position.x == maximumOpening) {
-                    movingDoor.transform.Translate(0f, 0f, 0f);
-                }
-            }
+            SlideDoors(true);
         }
-        else
-        {
-            if (movingDoor.transform.position.x > maximumClosing)
-            {
-                movingDoor.transform.Translate(-movementSpeed * Time.deltaTime, 0f, 0f);
-            }
-        }
-
-
     }
 
-    private void OnTriggerEnter(Collider col)
+    private void OnTriggerExit(Collider coll)
     {
-        if (col.gameObject.tag == "Player")
+        if (coll.gameObject.tag == "Player")
         {
-            playerIsHere = true;
+            SlideDoors(false);
         }
     }
 
-    private void OnTriggerExit(Collider col)
+    void SlideDoors(bool state)
     {
-        if (col.gameObject.tag == "Player")
-        {
-            playerIsHere = false;
-        }
+        leftAnim.SetBool("slide", state);
+        rightAnim.SetBool("slide", state);
+
     }
+
 }
