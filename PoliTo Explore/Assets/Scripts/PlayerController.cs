@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -15,6 +17,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] bool lockCursor = true;
 
     public GameObject miniMap, bigMap, handGrab;
+   
 
     float cameraPitch = 0.0f;
     float velocityY = 0.0f;
@@ -47,7 +50,21 @@ public class PlayerController : MonoBehaviour
             { mapOnScreen(); }
         }
 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {   
+
+            SceneManager.LoadSceneAsync("Menu");
+            //PauseGame();
+
+
+        }
+
     }
+    /*public void PauseGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+      
+    }*/
 
     void UpdateMouseLook()
     {
