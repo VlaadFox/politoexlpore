@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6102809083647404245}
   - component: {fileID: 7142237397120165744}
   - component: {fileID: 4970465852304085946}
+  - component: {fileID: 4268600830282481300}
   m_Layer: 0
   m_Name: porta_3.6x1x0.5
   m_TagString: Untagged
@@ -79,3 +80,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4268600830282481300
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6915937121910190703}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3.6, z: 0.31355387}
+  m_Center: {x: 0, y: 1.8, z: 0.056776933}
