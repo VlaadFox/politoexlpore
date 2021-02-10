@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 1951389824313160313}
   - component: {fileID: 8793902402298660553}
   - component: {fileID: 4267901744943924718}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: salita_interna_segreteria
   m_TagString: Untagged
   m_Icon: {fileID: 0}
