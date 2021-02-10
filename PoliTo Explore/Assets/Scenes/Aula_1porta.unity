@@ -19682,6 +19682,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1796751821}
     m_Modifications:
+    - target: {fileID: 5749281682367284386, guid: fa22ad196baa30744bb9b027cc499fde,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a0ec685f93a5c14eafa9045ffb69ca6, type: 2}
     - target: {fileID: 6109538934587794807, guid: fa22ad196baa30744bb9b027cc499fde,
         type: 3}
       propertyPath: m_Name
@@ -20432,6 +20437,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1241619427}
     m_Modifications:
+    - target: {fileID: 2026552311528974276, guid: af6c64aec8e4e544f978605ad9508769,
+        type: 3}
+      propertyPath: _bancoEsedia
+      value: 
+      objectReference: {fileID: -737427368974655901, guid: c014d5e052a14324a909b3571cbc7c35,
+        type: 3}
     - target: {fileID: 2600271535162814736, guid: af6c64aec8e4e544f978605ad9508769,
         type: 3}
       propertyPath: m_LocalPosition.x

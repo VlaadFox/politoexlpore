@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3335599813391384925}
   - component: {fileID: 697663296691336599}
   - component: {fileID: 7391680786876550673}
+  - component: {fileID: 2143179071246720369}
   m_Layer: 0
   m_Name: banco_aule_big_endsx
   m_TagString: Untagged
@@ -93,3 +94,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.56383514, y: 1.16, z: 0.363489}
   m_Center: {x: 0.018082455, y: 0.58, z: -0.0917445}
+--- !u!114 &2143179071246720369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346124811733226562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116c8368c46882742bb8204ec1bcc254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _banco: {fileID: -8220563211875276493, guid: e9c4fee52a1718d46be3ee7e1371906d, type: 3}
+  _sedia: {fileID: -1574383871209992644, guid: c7b7ef74d6607c9449bdaa786630974f, type: 3}
+  _bancoEsedia: {fileID: -4793213080856982069, guid: 1561f988504180f42a3a8739c60a62c9,
+    type: 3}

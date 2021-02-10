@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1421412049786732213}
   - component: {fileID: 3773218189025970815}
   - component: {fileID: 8147388274771931495}
+  - component: {fileID: 2026552311528974276}
   m_Layer: 0
   m_Name: banco_aule_big_center
   m_TagString: Untagged
@@ -93,3 +94,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.63902116, y: 1.16, z: 0.363489}
   m_Center: {x: 0.05567549, y: 0.58, z: -0.0917445}
+--- !u!114 &2026552311528974276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3413118854157577130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116c8368c46882742bb8204ec1bcc254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _banco: {fileID: 1634868674984992675, guid: 23832bc71433d124d8e8741ced25e9cb, type: 3}
+  _sedia: {fileID: 8960903771586335813, guid: 0cfdca028fefb6e4ca86fbad6413437c, type: 3}
+  _bancoEsedia: {fileID: -737427368974655901, guid: c014d5e052a14324a909b3571cbc7c35,
+    type: 3}
