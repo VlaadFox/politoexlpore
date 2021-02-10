@@ -110,3 +110,6 @@ MonoBehaviour:
   _sedia: {fileID: 8960903771586335813, guid: 0cfdca028fefb6e4ca86fbad6413437c, type: 3}
   _bancoEsedia: {fileID: -737427368974655901, guid: c014d5e052a14324a909b3571cbc7c35,
     type: 3}
+  _bancoMat: {fileID: 2100000, guid: 316a810489ab92449b2aed2a466dc30f, type: 2}
+  _sediaMat: {fileID: 2100000, guid: 0d3de07b17aa183488702ecffc02f607, type: 2}
+  _bancoEsediaMat: {fileID: 2100000, guid: d0d40326c3d16af4082e22749171afe2, type: 2}
