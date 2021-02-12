@@ -6,11 +6,11 @@ public class BancoRandomiser : MonoBehaviour
 {
     [SerializeField] private float _probBancoA = 0.5f;
     [SerializeField] private float _probSediaA = 0.5f;
-    private Banco[] _banchi;
+    public Banco[] banchi;
     // Start is called before the first frame update
     void Start()
     {
-        _banchi = GameObject.FindObjectsOfType<Banco>();
+        banchi = GameObject.FindObjectsOfType<Banco>();
         //Randomise();
     }
 
@@ -34,13 +34,13 @@ public class BancoRandomiser : MonoBehaviour
     private void Randomise()
     {
 
-        foreach (Banco b in _banchi)
+        foreach (Banco b in banchi)
         {
             if (Random.Range(0.0f, 1.0f) < _probBancoA)
             {
                 b.ApriBanco();
             }
-            if (Random.Range(0.0f, 1.0f) < _probSediaA)
+            if (Random.Range(0.0f, 1.0f) < _probSediaA) //messo per prova, penso vada tolto
             {
                 b.ApriSedia();
             }
@@ -49,7 +49,7 @@ public class BancoRandomiser : MonoBehaviour
 
     private void ApriTutto() //Boris reference?
     {
-        foreach (Banco b in _banchi)
+        foreach (Banco b in banchi)
         {
             b.ApriBanco();
             b.ApriSedia();
@@ -58,7 +58,7 @@ public class BancoRandomiser : MonoBehaviour
 
     private void ChiudiTutto() 
     { 
-        foreach (Banco b in _banchi)
+        foreach (Banco b in banchi)
         {
             b.ChiudiBanco();
             b.ChiudiSedia();
