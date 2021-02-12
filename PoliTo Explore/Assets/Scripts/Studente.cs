@@ -7,6 +7,7 @@ public class Studente : MonoBehaviour
 {
     [SerializeField] private int _NofSpawnpoints;
     [SerializeField] private SpawnManagerScriptableObject SpawnManager;
+    [SerializeField] private float cheerAnimationTime = 1.85f;
     public EventsManager eventsManager;
 
 
@@ -16,7 +17,7 @@ public class Studente : MonoBehaviour
 
     private int _index;
     private float _speed;
-    float cont = 1.85f;
+    
 
 
     // Start is called before the first frame update
@@ -81,12 +82,12 @@ public class Studente : MonoBehaviour
         _animator.SetFloat("speed", _speed);
         //Debug.Log($"Velocity:  {_navMeshAgent.desiredVelocity}");
         if (_animator.GetBool("clapping"))  {
-            if (cont > 0f){
-                cont-=Time.deltaTime;
+            if (cheerAnimationTime > 0f){
+                cheerAnimationTime-=Time.deltaTime;
             }else {
                 _animator.SetBool("clapping", false);
                 _navMeshAgent.isStopped = false;
-                cont = 1.85f;
+                cheerAnimationTime = 1.85f;
             }
         }
 

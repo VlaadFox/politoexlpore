@@ -4353,6 +4353,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c105ccc3addeeb4396800586b17cbd2, type: 3}
+--- !u!1 &224723638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1775984911197733759, guid: 35357ce3db12f7449b52aa1a38a4780a,
+    type: 3}
+  m_PrefabInstance: {fileID: 564863250}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &224757742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24179,6 +24185,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _probBancoA: 0.5
   _probSediaA: 0.5
+  _probStudente: 0.5
+  banchi: []
+  SpawnManager: {fileID: 11400000, guid: d615e96070e46e547b369d788763e87e, type: 2}
+  Cattedra: {fileID: 224723638}
 --- !u!4 &1274676839
 Transform:
   m_ObjectHideFlags: 0
