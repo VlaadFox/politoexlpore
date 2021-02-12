@@ -8,12 +8,16 @@ public class Studente : MonoBehaviour
     [SerializeField] private int _NofSpawnpoints;
     [SerializeField] private SpawnManagerScriptableObject SpawnManager;
     [SerializeField] private float cheerAnimationTime = 1.85f;
+
     public EventsManager eventsManager;
 
 
     private Spawner[] _spawnpoints;
     private UnityEngine.AI.NavMeshAgent _navMeshAgent;
     private Animator _animator;
+
+    private AudioSource[] sounds;
+    private AudioSource clap;
 
     private int _index;
     private float _speed;
@@ -43,6 +47,8 @@ public class Studente : MonoBehaviour
         }
 
         SetDestination();
+        sounds = GetComponents<AudioSource>();
+        clap = sounds[0];
     }
 
     // Update is called once per frame
@@ -52,6 +58,7 @@ public class Studente : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             Cheer();
+            
         }
 
         UpdateAnimations();
@@ -69,8 +76,11 @@ public class Studente : MonoBehaviour
         //animazione di gioia
         Debug.Log("Lo studente esulta");
         //Debug.Log(_animator);
-        if(_animator != null)
+        if (_animator != null)
+        {
             _animator.SetBool("clapping", true);
+            clap.Play();
+        }
         if (_navMeshAgent != null)
             _navMeshAgent.isStopped = true;
     }
@@ -83,8 +93,10 @@ public class Studente : MonoBehaviour
         //Debug.Log($"Velocity:  {_navMeshAgent.desiredVelocity}");
         if (_animator.GetBool("clapping"))  {
             if (cheerAnimationTime > 0f){
-                cheerAnimationTime-=Time.deltaTime;
-            }else {
+                
+                cheerAnimationTime -=Time.deltaTime;
+            }
+            else {
                 _animator.SetBool("clapping", false);
                 _navMeshAgent.isStopped = false;
                 cheerAnimationTime = 1.85f;
