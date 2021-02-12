@@ -4,32 +4,48 @@ using UnityEngine;
 
 public class pausa : MonoBehaviour
 {
-    public static bool GiocoInPausa = false;
-    public GameObject pauseMenuUI;
-    void Update()
+
+    [SerializeField] private GameObject pauseMenuUI, miniMap, handGrab, player;
+    [SerializeField] private bool isPaused;
+    private void Update()
     {
-    if (Input.GetKeyDown(KeyCode.Escape)) {
-            if (GiocoInPausa)
-            {
-                Resume();
-            }
-            else {
-                Pause();
-            }
-        } 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            isPaused = !isPaused;
+        }
+
+        if (isPaused)
+        {
+            ActiveteMenu();
+        }
+        else
+        {
+            DeactivateMenu();
+        }
     }
 
-    void Resume()
+    void ActiveteMenu()
     {
-        pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
-        GiocoInPausa = false;
-    }
-
-    void Pause()
-    {
-        pauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
-        GiocoInPausa = true;
+        pauseMenuUI.SetActive(true);
+        miniMap.SetActive(false);
+        handGrab.SetActive(false);
+        player.SetActive(false);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
+    }
+
+    public void DeactivateMenu()
+    {
+
+        Time.timeScale = 1f;
+        pauseMenuUI.SetActive(false);
+        isPaused = false;
+        miniMap.SetActive(true);
+        handGrab.SetActive(true);
+        player.SetActive(true);
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }
