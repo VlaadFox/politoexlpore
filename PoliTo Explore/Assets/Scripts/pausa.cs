@@ -5,7 +5,8 @@ using UnityEngine;
 public class pausa : MonoBehaviour
 {
 
-    [SerializeField] private GameObject pauseMenuUI, miniMap, handGrab, player;
+    [SerializeField] private GameObject pauseMenuUI, canvas, player; 
+    /*miniMap, handGrab, player;*/
     [SerializeField] private bool isPaused;
     private void Update()
     {
@@ -28,8 +29,9 @@ public class pausa : MonoBehaviour
     {
         Time.timeScale = 0f;
         pauseMenuUI.SetActive(true);
-        miniMap.SetActive(false);
-        handGrab.SetActive(false);
+        canvas.SetActive(false);
+        //miniMap.SetActive(false);
+        //handGrab.SetActive(false);
         player.SetActive(false);
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
@@ -42,8 +44,9 @@ public class pausa : MonoBehaviour
         Time.timeScale = 1f;
         pauseMenuUI.SetActive(false);
         isPaused = false;
-        miniMap.SetActive(true);
-        handGrab.SetActive(true);
+        canvas.SetActive(true);
+        //miniMap.SetActive(true);
+        //handGrab.SetActive(true);
         player.SetActive(true);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;

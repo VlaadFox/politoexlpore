@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+//using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -50,14 +50,14 @@ public class PlayerController : MonoBehaviour
             { mapOnScreen(); }
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        /*if (Input.GetKeyDown(KeyCode.Escape))
         {   
 
             SceneManager.LoadSceneAsync("Menu");
             //PauseGame();
 
 
-        }
+        }*/
 
     }
     /*public void PauseGame()

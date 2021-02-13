@@ -8,7 +8,7 @@ public class PauseMenu : MonoBehaviour
     //public static bool GameIsPaused = false;
 
     //public GameObject pauseMenuUI, miniMap, bigMap, handGrab;
-    void Update()
+    /* void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape)) {
            
@@ -27,7 +27,7 @@ public class PauseMenu : MonoBehaviour
         //SceneManager.SetActiveScene(SceneManager.LoadScene("Menu"));
     }
 
-    /*
+   
         public void Resume() {
             pauseMenuUI.SetActive(false);
             miniMap.SetActive(true);
