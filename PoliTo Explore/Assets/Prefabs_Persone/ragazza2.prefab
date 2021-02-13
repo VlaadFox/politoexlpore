@@ -976,6 +976,7 @@ GameObject:
   - component: {fileID: 7547278131199710011}
   - component: {fileID: 8453362331703647892}
   - component: {fileID: 3347401267664269210}
+  - component: {fileID: 993650709772985068}
   m_Layer: 0
   m_Name: ragazza2
   m_TagString: Untagged
@@ -1046,7 +1047,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 1
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -1054,6 +1055,22 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &993650709772985068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3825435153320514555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1862430299113054c9599fddab1b6f0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _NofSpawnpoints: 0
+  SpawnManager: {fileID: 11400000, guid: d615e96070e46e547b369d788763e87e, type: 2}
+  cheerAnimationTime: 1.85
+  eventsManager: {fileID: 0}
 --- !u!1 &3950435655407366304
 GameObject:
   m_ObjectHideFlags: 0
