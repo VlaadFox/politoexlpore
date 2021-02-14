@@ -27,29 +27,41 @@ public class Studente : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (eventsManager == null) {
-            eventsManager = GameObject.FindObjectOfType<EventsManager>();
-            //Debug.Log($"Event Manager:{eventsManager}");
-        }
-        eventsManager.canestroEvent += Cheer;
-        _animator = GetComponent<Animator>();
-
-        _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
-        Debug.Log($"NavMeshAgent:{_navMeshAgent}");
-
-        _spawnpoints = SpawnManager.GetSpawners();
-        Debug.Log(_spawnpoints[1]);
-        //_spawnpoints = new List<Spawner>(_array);
-
-        if (_NofSpawnpoints != _spawnpoints.Length){
-            Debug.Log("Problema con gli spawner");
-            Debug.Log($"Numero di Spawner:{ _spawnpoints.Length}");
-        }
-
-        SetDestination();
         sounds = GetComponents<AudioSource>();
-        clap = sounds[0]; 
+        clap = sounds[0];
+
+        Debug.Log("Scena di appartenenza: " + this.gameObject.scene.name);
+        if (this.gameObject.scene.name.Equals("Scena_Principale")){
+            if (eventsManager == null)
+            {
+                eventsManager = GameObject.FindObjectOfType<EventsManager>();
+                //Debug.Log($"Event Manager:{eventsManager}");
+            }
+            eventsManager.canestroEvent += Cheer;
+            _animator = GetComponent<Animator>();
+
+            _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+            Debug.Log($"NavMeshAgent:{_navMeshAgent}");
+
+            _spawnpoints = SpawnManager.GetSpawners();
+            Debug.Log(_spawnpoints[1]);
+            //_spawnpoints = new List<Spawner>(_array);
+
+            if (_NofSpawnpoints != _spawnpoints.Length)
+            {
+                Debug.Log("Problema con gli spawner");
+                Debug.Log($"Numero di Spawner:{ _spawnpoints.Length}");
+            }
+
+            SetDestination();
+
+        }
+        else
+        {
+            Destroy(GetComponent<UnityEngine.AI.NavMeshAgent>());
+        }
     }
+        
 
     // Update is called once per frame
     void Update()

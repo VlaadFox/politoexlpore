@@ -53,6 +53,7 @@ public class AulaRandomiser : MonoBehaviour
             {
                 int _index = Random.Range(0, _objectsToSpawn.Length - 1);
                 GameObject go = Instantiate(_objectsToSpawn[_index]);
+                //go.Destroy(GetComponent<UnityEngine.AI.NavMeshAgent>());
                 go.transform.position = b.transform.position; //TODO: aggiustare posizione davanti al banco 
                 b.ApriSedia();
             }
