@@ -47,8 +47,8 @@ public class Studente : MonoBehaviour
         }
 
         SetDestination();
-      /*  sounds = GetComponents<AudioSource>();
-        clap = sounds[0]; */
+        sounds = GetComponents<AudioSource>();
+        clap = sounds[0]; 
     }
 
     // Update is called once per frame
