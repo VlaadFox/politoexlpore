@@ -47,7 +47,13 @@ public class PlayerController : MonoBehaviour
         {
             if (bigMap.active) { downMap(); }
             else
-            { mapOnScreen(); }
+            { mapOnScreen();
+               }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (bigMap.active) { downMap(); }
         }
 
         /*if (Input.GetKeyDown(KeyCode.Escape))
