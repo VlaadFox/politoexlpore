@@ -7,7 +7,7 @@ public class Studente : MonoBehaviour
 {
     [SerializeField] private int _NofSpawnpoints;
     [SerializeField] private SpawnManagerScriptableObject SpawnManager;
-    [SerializeField] private float cheerAnimationTime = 1.85f;
+    private float cheerAnimationTime = 3.70f;
 
     public EventsManager eventsManager;
 
@@ -21,7 +21,8 @@ public class Studente : MonoBehaviour
 
     private int _index;
     private float _speed;
-    
+    private float _animationCounter;
+
 
 
     // Start is called before the first frame update
@@ -30,8 +31,9 @@ public class Studente : MonoBehaviour
         sounds = GetComponents<AudioSource>();
         clap = sounds[0];
 
-        Debug.Log("Scena di appartenenza: " + this.gameObject.scene.name);
-        if (this.gameObject.scene.name.Equals("Scena_Principale")){
+        //Debug.Log("Scena di appartenenza: " + this.gameObject.scene.name);
+        if (this.gameObject.scene.name.Equals("Scena_Principale"))
+        {
             if (eventsManager == null)
             {
                 eventsManager = GameObject.FindObjectOfType<EventsManager>();
@@ -41,11 +43,10 @@ public class Studente : MonoBehaviour
             _animator = GetComponent<Animator>();
 
             _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
-            Debug.Log($"NavMeshAgent:{_navMeshAgent}");
+            //Debug.Log($"NavMeshAgent:{_navMeshAgent}");
 
             _spawnpoints = SpawnManager.GetSpawners();
-            Debug.Log(_spawnpoints[1]);
-            //_spawnpoints = new List<Spawner>(_array);
+            //Debug.Log(_spawnpoints[1]);
 
             if (_NofSpawnpoints != _spawnpoints.Length)
             {
@@ -61,16 +62,16 @@ public class Studente : MonoBehaviour
             Destroy(GetComponent<UnityEngine.AI.NavMeshAgent>());
         }
     }
-        
+
 
     // Update is called once per frame
     void Update()
     {
-       
+
         if (Input.GetKeyDown(KeyCode.C))
         {
             Cheer();
-            
+
         }
 
         UpdateAnimations();
@@ -85,9 +86,8 @@ public class Studente : MonoBehaviour
 
     private void Cheer()
     {
-        //animazione di gioia
-        Debug.Log("Lo studente esulta");
-        //Debug.Log(_animator);
+
+        //Debug.Log("Lo studente esulta");
         if (_animator != null)
         {
             _animator.SetBool("clapping", true);
@@ -99,28 +99,31 @@ public class Studente : MonoBehaviour
 
     private void UpdateAnimations()
     {
-        
+
         _speed = Mathf.Clamp(_navMeshAgent.desiredVelocity.magnitude, 0f, 1f);
         _animator.SetFloat("speed", _speed);
-        //Debug.Log($"Velocity:  {_navMeshAgent.desiredVelocity}");
-        if (_animator.GetBool("clapping"))  {
-            if (cheerAnimationTime > 0f){
-                
-                cheerAnimationTime -=Time.deltaTime;
+        if (_animator.GetBool("clapping"))
+        {
+            //Debug.Log($"Tempo mancante aninazione:  {_animationCounter}");
+            if (_animationCounter > 0f)
+            {
+
+                _animationCounter -= Time.deltaTime;
             }
-            else {
+            else
+            {
                 _animator.SetBool("clapping", false);
                 _navMeshAgent.isStopped = false;
-                cheerAnimationTime = 1.85f;
+                _animationCounter = cheerAnimationTime;
             }
         }
 
     }
-   
+
 
     public void SetDestination()
     {
-        
+
         _index = Random.Range(0, _spawnpoints.Length - 1);
         Debug.Log($"Navigando allo spowner {_index} alla posizione {_spawnpoints[_index]}");
         if (_spawnpoints[_index] != null)
@@ -128,9 +131,9 @@ public class Studente : MonoBehaviour
             Vector3 wayPointPos = _spawnpoints[_index].transform.position;
             //_navMeshAgent.SetDestination(new Vector3(wayPointPos.x, transform.position.y, wayPointPos.z));
             _navMeshAgent.SetDestination(wayPointPos);
-           
+
         }
-         
+
     }
-    
+
 }

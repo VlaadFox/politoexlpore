@@ -4,19 +4,17 @@ using UnityEngine;
 
 public class Discoverable : Interactable
 {
-    public ExplorationDataScriptableObject Data;
+    public Grabbable ObjectToSpawn;
     void Start()
     {
-        if(Data == null) {
-            Data = GameObject.FindObjectOfType<ExplorationDataScriptableObject>();
-        }
-    }
-    
-public override void Interact(GameObject caller)
-    {
-        //Data.AddDiscovered(gameObject);
-        Debug.Log(Data.AddDiscovered(gameObject));
 
-        //TODO: messaggio a schermo con numero di cose scoperte
+    }
+
+    public override void Interact(GameObject caller)
+    {
+        Vector3 pos = this.transform.Find("drop").transform.position;
+        Grabbable go = Instantiate(ObjectToSpawn);
+        go.transform.position = pos;
+        go.GetComponent<Rigidbody>().isKinematic = true;
     }
 }
