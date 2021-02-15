@@ -11,6 +11,11 @@ public class NPCsSpawnManager : MonoBehaviour
 
     private Spawner[] _spawners;
     private GameObject[] _objectsToSpawn;
+    private float _spawnTime = 2.0f;
+    private int _spawnNumber = 10;
+    private float count;
+    private int countInt;
+
 
     // Start is called before the first frame update
     void Start() {
@@ -22,6 +27,15 @@ public class NPCsSpawnManager : MonoBehaviour
     void Update() {
         if (Input.GetKeyDown(KeyCode.P))    {
             SpawnStudents();
+        }
+        if(countInt <_spawnNumber){
+            if (count < _spawnTime)
+                count += Time.deltaTime;
+            else{
+                SpawnStudents();
+                countInt++;
+            }
+
         }
       
     }
