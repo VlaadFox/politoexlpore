@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] bool lockCursor = true;
 
-    public GameObject miniMap, bigMap, handGrab;
+    public GameObject miniMap, bigMap, handGrab, text;
    
 
     float cameraPitch = 0.0f;
@@ -104,6 +104,7 @@ public class PlayerController : MonoBehaviour
         Time.timeScale = 1f;
         miniMap.SetActive(true);
         handGrab.SetActive(true);
+        text.SetActive(true);
     }
     void mapOnScreen()
     {
@@ -111,5 +112,6 @@ public class PlayerController : MonoBehaviour
         Time.timeScale = 0.02f;
         miniMap.SetActive(false);
         handGrab.SetActive(false);
+        text.SetActive(false);
     }
 }

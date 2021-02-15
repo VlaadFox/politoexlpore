@@ -47,4 +47,10 @@ public class pausaUpgrade : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
+
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

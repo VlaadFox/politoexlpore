@@ -51,4 +51,9 @@ public class pausa : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
