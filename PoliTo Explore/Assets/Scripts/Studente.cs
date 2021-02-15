@@ -71,7 +71,6 @@ public class Studente : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             Cheer();
-
         }
 
         UpdateAnimations();
@@ -79,6 +78,7 @@ public class Studente : MonoBehaviour
         if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance && _navMeshAgent.velocity.sqrMagnitude <= 0.5f)
         {
             Debug.Log("Arrivato a destinazione, autodistruzione");
+            _spawnpoints[_index].SpawnStudent();
             Destroy(this.gameObject);
             //TODO: dovrebbe spawnarne un altro dalla stessa posizione
         }
@@ -99,22 +99,25 @@ public class Studente : MonoBehaviour
 
     private void UpdateAnimations()
     {
-
-        _speed = Mathf.Clamp(_navMeshAgent.desiredVelocity.magnitude, 0f, 1f);
-        _animator.SetFloat("speed", _speed);
-        if (_animator.GetBool("clapping"))
+        if (this.gameObject.scene.name.Equals("Scena_Principale"))
         {
-            //Debug.Log($"Tempo mancante aninazione:  {_animationCounter}");
-            if (_animationCounter > 0f)
-            {
 
-                _animationCounter -= Time.deltaTime;
-            }
-            else
+            _speed = Mathf.Clamp(_navMeshAgent.desiredVelocity.magnitude, 0f, 1f);
+            _animator.SetFloat("speed", _speed);
+            if (_animator.GetBool("clapping"))
             {
-                _animator.SetBool("clapping", false);
-                _navMeshAgent.isStopped = false;
-                _animationCounter = cheerAnimationTime;
+                //Debug.Log($"Tempo mancante aninazione:  {_animationCounter}");
+                if (_animationCounter > 0f)
+                {
+
+                    _animationCounter -= Time.deltaTime;
+                }
+                else
+                {
+                    _animator.SetBool("clapping", false);
+                    _navMeshAgent.isStopped = false;
+                    _animationCounter = cheerAnimationTime;
+                }
             }
         }
 
