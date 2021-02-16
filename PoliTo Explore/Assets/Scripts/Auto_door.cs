@@ -5,6 +5,7 @@ using UnityEngine;
 public class Auto_door : MonoBehaviour
 {
     public GameObject trigger, leftDoor, rightDoor;
+    //public AudioSource collectSound;
 
     Animator leftAnim, rightAnim;
     void Start()
@@ -18,6 +19,7 @@ public class Auto_door : MonoBehaviour
         if (coll.gameObject.tag == "Player")
         {
             SlideDoors(true);
+            //collectSound.Play();
         }
     }
 
@@ -26,6 +28,7 @@ public class Auto_door : MonoBehaviour
         if (coll.gameObject.tag == "Player")
         {
             SlideDoors(false);
+            //collectSound.Play();
         }
     }
 
