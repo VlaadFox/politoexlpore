@@ -63,6 +63,7 @@ public class Studente : MonoBehaviour
             Debug.Log(this.transform.Find("mixamorig:Hips/mixamorig:Spine/Zaino"));
             Destroy(this.transform.Find("mixamorig:Hips/mixamorig:Spine/Zaino"));
             Destroy(GetComponent<UnityEngine.AI.NavMeshAgent>());
+            Destroy(GetComponent<Rigidbody>());
         }
     }
 
