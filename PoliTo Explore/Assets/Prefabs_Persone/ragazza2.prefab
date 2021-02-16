@@ -1070,7 +1070,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _NofSpawnpoints: 0
   SpawnManager: {fileID: 11400000, guid: d615e96070e46e547b369d788763e87e, type: 2}
-  cheerAnimationTime: 1.85
   eventsManager: {fileID: 0}
 --- !u!82 &-9069568822791080231
 AudioSource:
@@ -1082,7 +1081,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 45fee17397e00cc47ac9d05e6b297919, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 10a28d0762810ac44a6dbab564d0374a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.02
   m_Pitch: 1
