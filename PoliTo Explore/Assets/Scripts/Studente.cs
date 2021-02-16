@@ -31,6 +31,7 @@ public class Studente : MonoBehaviour
         sounds = GetComponents<AudioSource>();
         clap = sounds[0];
 
+        _animator = GetComponent<Animator>();
         //Debug.Log("Scena di appartenenza: " + this.gameObject.scene.name);
         if (this.gameObject.scene.name.Equals("Scena_Principale"))
         {
@@ -40,7 +41,7 @@ public class Studente : MonoBehaviour
                 //Debug.Log($"Event Manager:{eventsManager}");
             }
             eventsManager.canestroEvent += Cheer;
-            _animator = GetComponent<Animator>();
+            
 
             _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
             //Debug.Log($"NavMeshAgent:{_navMeshAgent}");
@@ -59,6 +60,8 @@ public class Studente : MonoBehaviour
         }
         else
         {
+            Debug.Log(this.transform.Find("mixamorig:Hips/mixamorig:Spine/Zaino"));
+            Destroy(this.transform.Find("mixamorig:Hips/mixamorig:Spine/Zaino"));
             Destroy(GetComponent<UnityEngine.AI.NavMeshAgent>());
         }
     }
@@ -122,6 +125,9 @@ public class Studente : MonoBehaviour
                     _animationCounter = cheerAnimationTime;
                 }
             }
+        }
+        else{
+            _animator.SetBool("sit", true);
         }
 
     }
