@@ -100,6 +100,7 @@ public class PlayerController : MonoBehaviour
         velocityY += gravity * Time.deltaTime;
 
         Vector3 velocity = (transform.forward * currentDir.y + transform.right * currentDir.x) * walkSpeed + Vector3.up * velocityY;
+        Debug.Log($"Velocita: {velocity}");
 
         controller.Move(velocity * Time.deltaTime);
     }
