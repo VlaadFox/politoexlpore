@@ -74,13 +74,16 @@ public class Studente : MonoBehaviour
         }
 
         UpdateAnimations();
-
-        if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance && _navMeshAgent.velocity.sqrMagnitude <= 0.5f)
+        if (this.gameObject.scene.name.Equals("Scena_Principale"))
         {
-            Debug.Log("Arrivato a destinazione, autodistruzione");
-            _spawnpoints[_index].SpawnStudent();
-            Destroy(this.gameObject);
-            //TODO: dovrebbe spawnarne un altro dalla stessa posizione
+
+            if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance && _navMeshAgent.velocity.sqrMagnitude <= 0.5f)
+            {
+                Debug.Log("Arrivato a destinazione, autodistruzione");
+                _spawnpoints[_index].SpawnStudent();
+                Destroy(this.gameObject);
+                //TODO: dovrebbe spawnarne un altro dalla stessa posizione
+            }
         }
     }
 

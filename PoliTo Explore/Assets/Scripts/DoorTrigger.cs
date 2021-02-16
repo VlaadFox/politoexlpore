@@ -12,13 +12,11 @@ public class DoorTrigger : MonoBehaviour
     [SerializeField] private Scene Scene;
     private void OnTriggerEnter(Collider other)
     {
-        Vector3 othersPositionRelativeToDoor = (other.transform.position - transform.position).normalized;
-        
-        //the result of the dot product returns > 0 if relative position 
-        float dotResult = Vector3.Dot(othersPositionRelativeToDoor, transform.forward);
-        
+        //Vector3 othersPositionRelativeToDoor = (other.transform.position - transform.position).normalized; 
+        //float dotResult = Vector3.Dot(othersPositionRelativeToDoor, transform.forward);
+        //float doorRotation = dotResult > 0 ? 90f : -90f;
 
-        float doorRotation = dotResult > 0 ? 90f : -90f;
+        float doorRotation = 90f;
 
         if (_door != null && _openOnEnter)
             _door.OpenDoor(doorRotation);
@@ -43,8 +41,6 @@ public class DoorTrigger : MonoBehaviour
     {
 
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Aula_1porta");
-
-        
         while (!asyncLoad.isDone)
         {
             yield return null;

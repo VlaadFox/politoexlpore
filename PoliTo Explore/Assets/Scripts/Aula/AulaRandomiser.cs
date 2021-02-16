@@ -11,11 +11,14 @@ public class AulaRandomiser : MonoBehaviour
     [SerializeField] private SpawnManagerScriptableObject SpawnManager;
     [SerializeField] private GameObject Cattedra;
 
+    public Transform PlayerStartPos;
+
     private GameObject[] _objectsToSpawn;
 
 
     void Start()
     {
+        GameObject.Find("Player").transform.position= PlayerStartPos.position;
         banchi = GameObject.FindObjectsOfType<Banco>();
         _objectsToSpawn = SpawnManager.GetObjectsToSpawn();
         Randomise();
