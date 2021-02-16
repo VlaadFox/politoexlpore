@@ -24,14 +24,15 @@ public class Collect_triggers : MonoBehaviour
             collectSound.Play();
             Scoring_system.theScore += 1;
             uIObject.SetActive(true);
-            StartCoroutine("Wait");
             Create(true);
+            StartCoroutine("Wait");
+           
 
         }
     }
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1f);
         uIObject.SetActive(false);
         //Destroy(uIObject);
         Destroy(gameObject);
