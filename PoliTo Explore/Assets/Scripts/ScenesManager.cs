@@ -70,7 +70,6 @@ public class ScenesManager : MonoBehaviour
     {
         //Debug.Log($"primad el caricamento2: {_playerPos}");
         SceneManager.LoadScene("Scena_Principale", LoadSceneMode.Single);
-        //_playerPos.Rotate(new Vector3(0.0f, 90.0f, 0.0f), Space.Self);
         //Debug.Log($"posizione ruotata: {_playerPos}");
         player.transform.SetPositionAndRotation(_playerPos, _playerRot);
         //Debug.Log($"posizione settata: {player.transform.position}");
@@ -80,7 +79,8 @@ public class ScenesManager : MonoBehaviour
     {
         if (scene.name == "Scena_Principale" && _playerPos != null)
         {
-            player.transform.SetPositionAndRotation(_playerPos, new Quaternion());
+            player.transform.SetPositionAndRotation(_playerPos, _playerRot);
+            Debug.Log($"posizione settata: {player.transform.position}");
             Debug.Log("OnSceneLoaded: " + scene.name);
         }
     }
