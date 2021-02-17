@@ -33,6 +33,7 @@ public class pausaUpgrade : MonoBehaviour
         player.SetActive(false);
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
+        AudioListener.pause = true;
 
     }
 
@@ -46,6 +47,7 @@ public class pausaUpgrade : MonoBehaviour
         player.SetActive(true);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+        AudioListener.pause = false;
     }
 
 
