@@ -6,8 +6,8 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class PhysicsGrabbable : Grabbable
 {
-    private Rigidbody _rigidbody;
-    private Collider _collider;
+    protected Rigidbody _rigidbody;
+    protected Collider _collider;
     public float _pushForce = 10f;
 
     protected override void Start ()

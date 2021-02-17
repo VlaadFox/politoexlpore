@@ -28,6 +28,8 @@ public class Spawner : MonoBehaviour
        
         int _index = Random.Range(0, SpawnManager.objectsToSpawn.Length - 1);
         GameObject go = Instantiate(SpawnManager.objectsToSpawn[_index]);
+        go.GetComponent<UnityEngine.AI.NavMeshAgent>().isStopped = true;
+        go.GetComponent<UnityEngine.AI.NavMeshAgent>().updatePosition = false;
         go.transform.position = transform.position;
    
     }

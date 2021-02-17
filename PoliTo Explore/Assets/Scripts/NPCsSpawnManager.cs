@@ -12,9 +12,9 @@ public class NPCsSpawnManager : MonoBehaviour
     private Spawner[] _spawners;
     private GameObject[] _objectsToSpawn;
     private float _spawnTime = 2.0f;
-    private int _spawnNumber = 10;
-    private float count;
-    private int countInt;
+    private int _spawnNumber = 3;
+    private float count = 0f;
+    private int countInt = 0;
 
 
     // Start is called before the first frame update
@@ -28,15 +28,16 @@ public class NPCsSpawnManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))    {
             SpawnStudents();
         }
-        if(countInt <_spawnNumber){
-            if (count < _spawnTime)
-                count += Time.deltaTime;
-            else{
-                SpawnStudents();
-                countInt++;
-            }
+        //if(countInt <_spawnNumber){
+        //    if (count < _spawnTime)
+        //        count += Time.deltaTime;
+        //    else{
+        //        SpawnStudents();
+        //        countInt++;
+        //        count = 0f;
+        //    }
 
-        }
+        //}
       
     }
 
@@ -46,6 +47,8 @@ public class NPCsSpawnManager : MonoBehaviour
         {
             int _index = Random.Range(0, _objectsToSpawn.Length - 1);
             GameObject go = Instantiate(_objectsToSpawn[_index]);
+            go.GetComponent<UnityEngine.AI.NavMeshAgent>().isStopped = true;
+            go.GetComponent<UnityEngine.AI.NavMeshAgent>().updatePosition = false;
             go.transform.position = _spawners[i].transform.position;
         }
         

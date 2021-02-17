@@ -5,7 +5,7 @@ using UnityEngine;
 public class Studente : MonoBehaviour
 
 {
-    [SerializeField] private int _NofSpawnpoints;
+   
     [SerializeField] private SpawnManagerScriptableObject SpawnManager;
     private float cheerAnimationTime = 3.70f;
 
@@ -45,15 +45,11 @@ public class Studente : MonoBehaviour
 
             _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
             //Debug.Log($"NavMeshAgent:{_navMeshAgent}");
+            _navMeshAgent.isStopped = true;
+            _navMeshAgent.updatePosition = false;
 
             _spawnpoints = SpawnManager.GetSpawners();
-            //Debug.Log(_spawnpoints[1]);
 
-            if (_NofSpawnpoints != _spawnpoints.Length)
-            {
-                Debug.Log("Problema con gli spawner");
-                Debug.Log($"Numero di Spawner:{ _spawnpoints.Length}");
-            }
 
             SetDestination();
 
@@ -144,7 +140,9 @@ public class Studente : MonoBehaviour
             Vector3 wayPointPos = _spawnpoints[_index].transform.position;
             //_navMeshAgent.SetDestination(new Vector3(wayPointPos.x, transform.position.y, wayPointPos.z));
             _navMeshAgent.SetDestination(wayPointPos);
-
+            _navMeshAgent.isStopped = false;
+            _navMeshAgent.updatePosition = true;
+            Debug.Log(_navMeshAgent.isPathStale);
         }
 
     }

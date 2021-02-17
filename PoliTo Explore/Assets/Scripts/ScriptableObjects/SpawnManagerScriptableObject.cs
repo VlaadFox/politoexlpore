@@ -29,7 +29,7 @@ public class SpawnManagerScriptableObject : ScriptableObject
            spawnPoints = GameObject.FindObjectsOfType<Spawner>();
             Debug.Log("uno era nullo, ricerca spawners");
         }
-        Debug.Log($"Numero di Spawner (scriptable get):{ spawnPoints.Length} ,    {spawnPoints[0]}");
+        //Debug.Log($"Numero di Spawner (scriptable get):{ spawnPoints.Length} ,    {spawnPoints[0]}");
         return spawnPoints;
     }
 

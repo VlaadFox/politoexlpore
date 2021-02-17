@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 260569747409549724}
   - component: {fileID: -8607705178738106802}
   - component: {fileID: 8853762081695853460}
-  - component: {fileID: 3371426540769933063}
+  - component: {fileID: 1712849518119045146}
   m_Layer: 0
   m_Name: "bicchiere_caff\xE8"
   m_TagString: Untagged
@@ -111,7 +111,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3371426540769933063
+--- !u!114 &1712849518119045146
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1773651611036457033}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f52f472fff9417049900c69967160392, type: 3}
+  m_Script: {fileID: 11500000, guid: 9579a1aec47336a48afdb8a68616f982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _pushForce: 10
