@@ -139,10 +139,10 @@ public class Studente : MonoBehaviour
         {
             Vector3 wayPointPos = _spawnpoints[_index].transform.position;
             //_navMeshAgent.SetDestination(new Vector3(wayPointPos.x, transform.position.y, wayPointPos.z));
-            _navMeshAgent.SetDestination(wayPointPos);
+            Debug.Log(_navMeshAgent.SetDestination(wayPointPos));
             _navMeshAgent.isStopped = false;
             _navMeshAgent.updatePosition = true;
-            Debug.Log(_navMeshAgent.isPathStale);
+            //Debug.Log(_navMeshAgent.isOnNavMesh);
         }
 
     }

@@ -40,17 +40,17 @@ PrefabInstance:
     - target: {fileID: 144250218351063440, guid: f294fdbd1dbf3274ca8e671e4e122bd7,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.6149852
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 144250218351063440, guid: f294fdbd1dbf3274ca8e671e4e122bd7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.000029325485
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 144250218351063440, guid: f294fdbd1dbf3274ca8e671e4e122bd7,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 62.493973
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 144250218351063440, guid: f294fdbd1dbf3274ca8e671e4e122bd7,
         type: 3}
@@ -95,7 +95,7 @@ PrefabInstance:
     - target: {fileID: 669816314812312362, guid: f294fdbd1dbf3274ca8e671e4e122bd7,
         type: 3}
       propertyPath: m_Name
-      value: ragazzo3
+      value: ragazzo3 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 766667622407281966, guid: f294fdbd1dbf3274ca8e671e4e122bd7,
         type: 3}

@@ -30,7 +30,7 @@ public class Spawner : MonoBehaviour
         GameObject go = Instantiate(SpawnManager.objectsToSpawn[_index]);
         go.GetComponent<UnityEngine.AI.NavMeshAgent>().isStopped = true;
         go.GetComponent<UnityEngine.AI.NavMeshAgent>().updatePosition = false;
-        go.transform.position = transform.position;
+        go.GetComponent<UnityEngine.AI.NavMeshAgent>().Warp(transform.position);
    
     }
 

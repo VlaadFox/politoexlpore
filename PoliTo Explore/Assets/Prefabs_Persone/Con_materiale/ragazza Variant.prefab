@@ -80,7 +80,7 @@ PrefabInstance:
     - target: {fileID: 259670182813721923, guid: 33c98ba1b01fa8644aaf06e25aa423a5,
         type: 3}
       propertyPath: m_Name
-      value: ragazza
+      value: ragazza Variant
       objectReference: {fileID: 0}
     - target: {fileID: 516453932083510894, guid: 33c98ba1b01fa8644aaf06e25aa423a5,
         type: 3}
@@ -120,17 +120,17 @@ PrefabInstance:
     - target: {fileID: 635385828179132409, guid: 33c98ba1b01fa8644aaf06e25aa423a5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.6488457
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 635385828179132409, guid: 33c98ba1b01fa8644aaf06e25aa423a5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.000029325485
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 635385828179132409, guid: 33c98ba1b01fa8644aaf06e25aa423a5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 62.8613
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 635385828179132409, guid: 33c98ba1b01fa8644aaf06e25aa423a5,
         type: 3}

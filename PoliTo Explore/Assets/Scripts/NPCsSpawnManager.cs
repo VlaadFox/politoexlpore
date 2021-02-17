@@ -49,7 +49,8 @@ public class NPCsSpawnManager : MonoBehaviour
             GameObject go = Instantiate(_objectsToSpawn[_index]);
             go.GetComponent<UnityEngine.AI.NavMeshAgent>().isStopped = true;
             go.GetComponent<UnityEngine.AI.NavMeshAgent>().updatePosition = false;
-            go.transform.position = _spawners[i].transform.position;
+            go.GetComponent<UnityEngine.AI.NavMeshAgent>().Warp(_spawners[i].transform.position);
+            //go.transform.position = _spawners[i].transform.position;
         }
         
     }
