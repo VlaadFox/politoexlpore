@@ -9,6 +9,7 @@ public class ScenesManager : MonoBehaviour
     [SerializeField] private EventsManager eventsManager;
     [SerializeField] private GameObject player;
     private Vector3 _playerPos;
+    private Quaternion _playerRot;
     //private Quaternion _playerRot;
 
     private static ScenesManager _instance;
@@ -49,16 +50,19 @@ public class ScenesManager : MonoBehaviour
     }
     public void LoadAula1()
     {
-        _playerPos = player.transform.position;
-        //Debug.Log($"posizione salvata: {_playerPos}");
+        _playerPos = player.transform.position - player.transform.forward;
+        _playerRot = player.transform.rotation *= Quaternion.AngleAxis(90f, Vector3.up);
+        Debug.Log($"posizione reale: {player.transform.position}");
+        Debug.Log($"posizione salvata: {_playerPos}");
         SceneManager.LoadScene("Aula_1porta", LoadSceneMode.Single);
         //Debug.Log($"dopo it caricamento1: {_playerPos}");
-        // _playerRot = player.transform.rotation;
+        
     }
 
     public void LoadAula2()
     {
-        _playerPos = player.transform.position;
+        _playerPos = player.transform.position - player.transform.forward;
+        _playerRot = player.transform.rotation *= Quaternion.AngleAxis(90f, Vector3.up);
         SceneManager.LoadScene("Aula_3porte", LoadSceneMode.Single);
     }
 
@@ -68,7 +72,7 @@ public class ScenesManager : MonoBehaviour
         SceneManager.LoadScene("Scena_Principale", LoadSceneMode.Single);
         //_playerPos.Rotate(new Vector3(0.0f, 90.0f, 0.0f), Space.Self);
         //Debug.Log($"posizione ruotata: {_playerPos}");
-        player.transform.SetPositionAndRotation(_playerPos, new Quaternion());
+        player.transform.SetPositionAndRotation(_playerPos, _playerRot);
         //Debug.Log($"posizione settata: {player.transform.position}");
     }
 
