@@ -28,8 +28,33 @@ public class PlayerController : MonoBehaviour
 
     Vector2 currentMouseDelta = Vector2.zero;
     Vector2 currentMouseDeltaVelocity = Vector2.zero;
+
+    //private PlayerController singleton;
+    private static PlayerController _instance;
+
+    public static PlayerController Instance { get { return _instance; } }
+
+
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instance = this;
+        }
+    }
     void Start()
     {
+        //if (singleton != null)
+        //{
+        //    Destroy(this.gameObject);
+        //    return;
+        //}
+        //singleton = this;
+
         controller = GetComponent<CharacterController>();
         if (lockCursor)
         {

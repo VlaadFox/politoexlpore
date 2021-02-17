@@ -77,8 +77,8 @@ MonoBehaviour:
   _door: {fileID: 6887223317509758293}
   _openOnEnter: 1
   _closeOnExit: 1
-  Scene:
-    m_Handle: 0
+  eventsManager: {fileID: 0}
+  portaSingola: 0
 --- !u!1 &6887223317886029615
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,7 +11,18 @@ public class EventsManager : MonoBehaviour
     public event Action loadAula2Event;
     public event Action loadPrincipaleEvent;
 
+    static EventsManager singleton;
+    // Start is called before the first frame update
+    void Start()
+    {
+        if (singleton != null)
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+        singleton = this;
 
+    }
 
     public void OnCanestro()
     {
@@ -36,7 +47,7 @@ public class EventsManager : MonoBehaviour
         }
     }
 
-    public void loadPrincipale()
+    public void LoadPrincipale()
     {
         if (loadPrincipaleEvent != null)
         {

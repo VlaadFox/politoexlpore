@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class DoorTrigger : MonoBehaviour
 {
@@ -9,8 +8,17 @@ public class DoorTrigger : MonoBehaviour
     [SerializeField] private bool _openOnEnter = true;
     [SerializeField] private bool _closeOnExit = true;
 
-    [SerializeField] private Scene Scene;
-    private void OnTriggerEnter(Collider other)
+    [SerializeField] private EventsManager eventsManager;
+    [SerializeField] private bool portaSingola;
+    [SerializeField] private bool portaInternoAula;
+
+    void Start()
+    {
+        if (eventsManager == null)
+
+            eventsManager = GameObject.FindObjectOfType<EventsManager>();
+    }
+        private void OnTriggerEnter(Collider other)
     {
         //Vector3 othersPositionRelativeToDoor = (other.transform.position - transform.position).normalized; 
         //float dotResult = Vector3.Dot(othersPositionRelativeToDoor, transform.forward);
@@ -23,8 +31,23 @@ public class DoorTrigger : MonoBehaviour
 
         if (other.gameObject.GetComponent<PlayerController>() != null)
         {
-            //StartCoroutine(LoadYourAsyncScene());
-            SceneManager.LoadScene("Aula_1porta", LoadSceneMode.Single);
+            if (!portaInternoAula)
+            {
+                if (portaSingola)
+                {
+                    eventsManager.LoadAula1();
+                }
+                else
+                {
+                    eventsManager.LoadAula2();
+                }
+            }
+            else
+            {
+                eventsManager.LoadPrincipale();
+            }
+            
+            
         }
 
         Debug.Log("Entrato nell'area della porta");
@@ -37,14 +60,5 @@ public class DoorTrigger : MonoBehaviour
         Debug.Log("Uscito dall'area della porta");
     }
 
-    IEnumerator LoadYourAsyncScene()
-    {
-
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync("Aula_1porta");
-        while (!asyncLoad.isDone)
-        {
-            yield return null;
-            Debug.Log("Caricamento Scena");
-        }
-    }
+    
 }
