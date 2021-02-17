@@ -48,6 +48,7 @@ public class Studente : MonoBehaviour
 
             _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
             //Debug.Log($"NavMeshAgent:{_navMeshAgent}");
+            _navMeshAgent.autoRepath = true;
             _navMeshAgent.isStopped = true;
             _navMeshAgent.updatePosition = false;
 
@@ -150,12 +151,11 @@ public class Studente : MonoBehaviour
 
     public void SetDestination()
     {
-        do
-        {
+        
             dest = RandomNavSphere(transform.position, 20f, 1);
             _navMeshAgent.SetDestination(dest);
             Debug.Log("troppo vicino, riprovo");
-        } while (_navMeshAgent.remainingDistance > 10);
+        
         
 
         
