@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Studente : MonoBehaviour
 
@@ -8,6 +9,7 @@ public class Studente : MonoBehaviour
    
     [SerializeField] private SpawnManagerScriptableObject SpawnManager;
     private float cheerAnimationTime = 3.70f;
+    public bool gironzola;
 
     public EventsManager eventsManager;
 
@@ -22,6 +24,7 @@ public class Studente : MonoBehaviour
     private int _index;
     private float _speed;
     private float _animationCounter;
+    private Vector3 dest;
 
 
 
@@ -48,10 +51,10 @@ public class Studente : MonoBehaviour
             _navMeshAgent.isStopped = true;
             _navMeshAgent.updatePosition = false;
 
-            _spawnpoints = SpawnManager.GetSpawners();
+            if(gironzola)
+                SetDestination();
 
 
-            //SetDestination();
 
         }
         else
@@ -73,18 +76,21 @@ public class Studente : MonoBehaviour
             Cheer();
         }
 
-        UpdateAnimations();
+        
         if (this.gameObject.scene.name.Equals("Scena_Principale"))
         {
-
-            if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance && _navMeshAgent.velocity.sqrMagnitude <= 0.5f)
+            if (gironzola)
             {
-                Debug.Log("Arrivato a destinazione, autodistruzione");
-                //_spawnpoints[_index].SpawnStudent();
-                //Destroy(this.gameObject);
-                
+                if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance && _navMeshAgent.velocity.sqrMagnitude <= 0.5f)
+                {
+                    SetDestination();   
+                }
             }
+            
+
+
         }
+        UpdateAnimations();
     }
 
     private void Cheer()
@@ -128,27 +134,36 @@ public class Studente : MonoBehaviour
         }
 
     }
+    public static Vector3 RandomNavSphere(Vector3 origin, float distance, int layermask)
+    {
+        Vector3 randomDirection = UnityEngine.Random.insideUnitSphere * distance;
+
+        randomDirection += origin;
+
+        NavMeshHit navHit;
+
+        NavMesh.SamplePosition(randomDirection, out navHit, distance, layermask);
+
+        return navHit.position;
+    }
 
 
     public void SetDestination()
     {
-
-        _index = Random.Range(0, _spawnpoints.Length - 1);
-        Debug.Log($"Navigando allo spowner {_index} alla posizione {_spawnpoints[_index]}");
-        if (_spawnpoints[_index] != null)
+        do
         {
-            Vector3 wayPointPos = _spawnpoints[_index].transform.position;
-            //_navMeshAgent.SetDestination(new Vector3(wayPointPos.x, transform.position.y, wayPointPos.z));
+            dest = RandomNavSphere(transform.position, 20f, 1);
+            _navMeshAgent.SetDestination(dest);
+            Debug.Log("troppo vicino, riprovo");
+        } while (_navMeshAgent.remainingDistance > 10);
+        
 
-            _navMeshAgent.SetDestination(wayPointPos);
-            Debug.Log($"Remaining Distance: { _navMeshAgent.remainingDistance}");
-            
-
-
-            _navMeshAgent.isStopped = false;
-            _navMeshAgent.updatePosition = true;
-            //Debug.Log(_navMeshAgent.isOnNavMesh);
-        }
+        
+        Debug.Log("nuova destinazione");
+        _navMeshAgent.isStopped = false;
+        _navMeshAgent.updatePosition = true;
+           
+        
 
     }
 
