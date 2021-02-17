@@ -51,7 +51,7 @@ public class Studente : MonoBehaviour
             _spawnpoints = SpawnManager.GetSpawners();
 
 
-            SetDestination();
+            //SetDestination();
 
         }
         else
@@ -80,9 +80,9 @@ public class Studente : MonoBehaviour
             if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance && _navMeshAgent.velocity.sqrMagnitude <= 0.5f)
             {
                 Debug.Log("Arrivato a destinazione, autodistruzione");
-                _spawnpoints[_index].SpawnStudent();
-                Destroy(this.gameObject);
-                //TODO: dovrebbe spawnarne un altro dalla stessa posizione
+                //_spawnpoints[_index].SpawnStudent();
+                //Destroy(this.gameObject);
+                
             }
         }
     }
@@ -139,7 +139,12 @@ public class Studente : MonoBehaviour
         {
             Vector3 wayPointPos = _spawnpoints[_index].transform.position;
             //_navMeshAgent.SetDestination(new Vector3(wayPointPos.x, transform.position.y, wayPointPos.z));
-            Debug.Log(_navMeshAgent.SetDestination(wayPointPos));
+
+            _navMeshAgent.SetDestination(wayPointPos);
+            Debug.Log($"Remaining Distance: { _navMeshAgent.remainingDistance}");
+            
+
+
             _navMeshAgent.isStopped = false;
             _navMeshAgent.updatePosition = true;
             //Debug.Log(_navMeshAgent.isOnNavMesh);
