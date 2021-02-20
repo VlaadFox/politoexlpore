@@ -47,6 +47,7 @@ public class Studente : MonoBehaviour
             
 
             _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+            _collider = GetComponent<Collider>();
             //Debug.Log($"NavMeshAgent:{_navMeshAgent}");
             _navMeshAgent.autoRepath = true;
             _navMeshAgent.isStopped = true;
@@ -135,6 +136,16 @@ public class Studente : MonoBehaviour
         }
 
     }
+
+    private void OnCollisionEnter() //semplice ed efficace,  non ottimo per le prestazioni
+    {
+        if (gironzola)
+        {
+            Debug.Log("Collisione");
+            SetDestination();
+        }
+            
+    }
     public static Vector3 RandomNavSphere(Vector3 origin, float distance, int layermask)
     {
         Vector3 randomDirection = UnityEngine.Random.insideUnitSphere * distance;
@@ -152,13 +163,9 @@ public class Studente : MonoBehaviour
     public void SetDestination()
     {
         
-            dest = RandomNavSphere(transform.position, 20f, 1);
-            _navMeshAgent.SetDestination(dest);
-            Debug.Log("troppo vicino, riprovo");
-        
-        
+        dest = RandomNavSphere(transform.position, 20f, 1);
+        _navMeshAgent.SetDestination(dest);
 
-        
         Debug.Log("nuova destinazione");
         _navMeshAgent.isStopped = false;
         _navMeshAgent.updatePosition = true;
