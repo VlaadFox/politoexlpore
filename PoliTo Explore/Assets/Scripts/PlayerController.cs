@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
         UpdateMouseLook();
         UpdateMovement();
 
-        if (Input.GetKeyDown(KeyCode.M))
+        /*if (Input.GetKeyDown(KeyCode.M))
         {
             if (bigMap.active) { downMap(); }
             else
@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
             if (bigMap.active) { downMap(); }
         }
 
-        /*if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {   
 
             SceneManager.LoadSceneAsync("Menu");
@@ -130,7 +130,7 @@ public class PlayerController : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
     }
 
-    void downMap()
+    /*void downMap()
     {
         bigMap.SetActive(false);
         Time.timeScale = 1f;
@@ -138,6 +138,8 @@ public class PlayerController : MonoBehaviour
         handGrab.SetActive(true);
         text.SetActive(true);
     }
+
+
     void mapOnScreen()
     {
         bigMap.SetActive(true);
@@ -145,5 +147,5 @@ public class PlayerController : MonoBehaviour
         miniMap.SetActive(false);
         handGrab.SetActive(false);
         text.SetActive(false);
-    }
+    }*/
 }
