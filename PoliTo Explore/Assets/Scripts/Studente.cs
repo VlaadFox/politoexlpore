@@ -47,7 +47,7 @@ public class Studente : MonoBehaviour
             
 
             _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
-            _collider = GetComponent<Collider>();
+            //_collider = GetComponent<Collider>();
             //Debug.Log($"NavMeshAgent:{_navMeshAgent}");
             _navMeshAgent.autoRepath = true;
             _navMeshAgent.isStopped = true;
