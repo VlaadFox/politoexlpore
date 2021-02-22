@@ -47,7 +47,7 @@ public class Studente : MonoBehaviour
             
 
             _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
-            _collider = GetComponent<Collider>();
+
             //Debug.Log($"NavMeshAgent:{_navMeshAgent}");
             _navMeshAgent.autoRepath = true;
             _navMeshAgent.isStopped = true;
@@ -61,8 +61,8 @@ public class Studente : MonoBehaviour
         }
         else
         {
-            Debug.Log(this.transform.Find("mixamorig:Hips/mixamorig:Spine/Zaino"));
-            Destroy(this.transform.Find("mixamorig:Hips/mixamorig:Spine/Zaino"));
+            //Debug.Log(this.transform.Find("mixamorig:Hips/mixamorig:Spine/Zaino"));
+            //Destroy(this.transform.Find("mixamorig:Hips/mixamorig:Spine/Zaino"));
             Destroy(GetComponent<UnityEngine.AI.NavMeshAgent>());
             Destroy(GetComponent<Rigidbody>());
         }
@@ -148,7 +148,7 @@ public class Studente : MonoBehaviour
     }
     public static Vector3 RandomNavSphere(Vector3 origin, float distance, int layermask)
     {
-        Vector3 randomDirection = UnityEngine.Random.insideUnitSphere * distance;
+        Vector3 randomDirection = UnityEngine.Random.onUnitSphere * distance;
 
         randomDirection += origin;
 
@@ -162,11 +162,11 @@ public class Studente : MonoBehaviour
 
     public void SetDestination()
     {
-        
+       
         dest = RandomNavSphere(transform.position, 20f, 1);
         _navMeshAgent.SetDestination(dest);
-
-        Debug.Log("nuova destinazione");
+                                
+        //Debug.Log("nuova destinazione");
         _navMeshAgent.isStopped = false;
         _navMeshAgent.updatePosition = true;
            

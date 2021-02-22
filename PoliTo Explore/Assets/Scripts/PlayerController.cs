@@ -40,6 +40,7 @@ public class PlayerController : MonoBehaviour
         if (_instance != null && _instance != this)
         {
             Destroy(this.gameObject);
+            Debug.Log($"Distrutto player nella posizione {this.transform.position}");
         }
         else
         {

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ControlM : MonoBehaviour
 {
@@ -65,5 +66,14 @@ public class ControlM : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         AudioListener.pause = false;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode) //recupera riferimento al player quando la scena si carica
+    {
+        if (player == null && scene.name.Equals("Scena_Principale"))
+        {
+            player = GameObject.Find("Player");
+        }
+            
     }
 }
