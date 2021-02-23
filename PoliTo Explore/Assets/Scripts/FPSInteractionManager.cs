@@ -10,6 +10,8 @@ public class FPSInteractionManager : MonoBehaviour
 
     [SerializeField] private Image _target;
 
+    //public bool ImmagineASchermo;
+
     private Interactable _pointingInteractable;
     private Grabbable _pointingGrabbable;
 
@@ -51,7 +53,7 @@ public class FPSInteractionManager : MonoBehaviour
         if (Physics.Raycast(ray, out hit, _interactionDistance))
         {
             //Check if is interactable
-            _pointingInteractable = hit.transform.GetComponent<Discoverable>();
+            _pointingInteractable = hit.transform.GetComponent<Interactable>();
             if (_pointingInteractable)
             {
                 if (Input.GetKeyDown(KeyCode.E))
@@ -84,9 +86,15 @@ public class FPSInteractionManager : MonoBehaviour
     {
         if (_pointingGrabbable || _pointingInteractable)
             _target.color = Color.green;
-        else
+        else{
             _target.color = new Color(_target.color.r, _target.color.g, _target.color.b, 0f);
-        
+            //_target.SetActive(false);
+
+
+        }
+            
+
+
     }
 
     private void Drop()
