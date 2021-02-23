@@ -4,572 +4,572 @@ ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
-      74: 4638792832154652686
-    second: Vending Machine.001|Shader NodetreeAction
+      74: -4465327034601123192
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi
   - first:
-      74: 6592900778810707438
-    second: Vending Machine.001|Shader NodetreeAction.001
+      74: 6705767030568980267
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.001
   - first:
-      74: -5763867231105957105
-    second: Vending Machine.001|Shader NodetreeAction.002
+      74: -5440993136192356210
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.002
   - first:
-      74: -1369578577128857027
-    second: Vending Machine.001|Shader NodetreeAction.003
+      74: 3609903934108178969
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.003
   - first:
-      74: -6665792675422653334
-    second: Vending Machine.001|Shader NodetreeAction.004
+      74: -5730903557778816470
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.004
   - first:
-      74: 1284546367488193811
-    second: Vending Machine.001|Shader NodetreeAction.005
+      74: -6479709299500613049
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.005
   - first:
-      74: -2142789623364491190
-    second: Vending Machine.001|Shader NodetreeAction.006
+      74: 181638455991698673
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.006
   - first:
-      74: 2574833124757084551
-    second: Vending Machine.001|Shader NodetreeAction.007
+      74: 2477582901644320313
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.007
   - first:
-      74: 4413452387475563868
-    second: Vending Machine.001|Shader NodetreeAction.008
+      74: 4651306333330906512
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.008
   - first:
-      74: -8692764450071864577
-    second: Vending Machine.001|Shader NodetreeAction.009
+      74: -4340809940650250308
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.009
   - first:
-      74: -712677171081618167
-    second: Vending Machine.001|Shader NodetreeAction.010
+      74: -3734083210918645166
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.010
   - first:
-      74: 6062319022921730434
-    second: Vending Machine.001|Shader NodetreeAction.011
+      74: 5372456856567590670
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.011
   - first:
-      74: 476361288153958668
-    second: Vending Machine.001|Shader NodetreeAction.012
+      74: 4645951656029191807
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.012
   - first:
-      74: -6952917449201125788
-    second: Vending Machine.001|Shader NodetreeAction.013
+      74: 3944189935503665045
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.013
   - first:
-      74: -6204634450386875090
-    second: Vending Machine.001|Shader NodetreeAction.014
+      74: 7612567753142319115
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.014
   - first:
-      74: 143435294892118046
-    second: Vending Machine.001|Shader NodetreeAction.015
+      74: -3794671181530003170
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.015
   - first:
-      74: 1281519835103388373
-    second: Vending Machine.001|Shader NodetreeAction.016
+      74: 6299600418486169957
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.016
   - first:
-      74: 3556027063788225350
-    second: Vending Machine.001|Shader NodetreeAction.017
+      74: 6571229699130718644
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.017
   - first:
-      74: -6588531128827843173
-    second: Vending Machine.001|Shader NodetreeAction.018
+      74: -1712773313412746247
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.018
   - first:
-      74: 4567443274289458017
-    second: Vending Machine.001|Shader NodetreeAction.019
+      74: 4738114239197576650
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.019
   - first:
-      74: -5687394091118207038
-    second: Vending Machine.001|Shader NodetreeAction.020
+      74: -4885456757961593828
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.020
   - first:
-      74: -1551504943238294937
-    second: Vending Machine.001|Shader NodetreeAction.021
+      74: -7780514278944655898
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.021
   - first:
-      74: -8871888986176476322
-    second: Vending Machine.001|Shader NodetreeAction.022
+      74: -3253761135936217282
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.022
   - first:
-      74: -1467729188660239037
-    second: Vending Machine.001|Shader NodetreeAction.023
+      74: -2028985446643294002
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.023
   - first:
-      74: 4431102368971919860
-    second: Vending Machine.001|Shader NodetreeAction.024
+      74: -3359060349916888254
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.024
   - first:
-      74: -6604440825293760092
-    second: Vending Machine.001|Shader NodetreeAction.025
+      74: -3991957445910448174
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.025
   - first:
-      74: -4619696615429838660
-    second: Vending Machine.001|Shader NodetreeAction.026
+      74: 9083483555300202441
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.026
   - first:
-      74: -1502024935311578572
-    second: Vending Machine.001|Shader NodetreeAction.027
+      74: -8099464467495554737
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.027
   - first:
-      74: -2647726950538989867
-    second: Vending Machine.001|Shader NodetreeAction.028
+      74: -1274020212759977027
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.028
   - first:
-      74: -3155565147896292263
-    second: Vending Machine.001|Shader NodetreeAction.029
+      74: -7078411230585261540
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.029
   - first:
-      74: -3883610457918176036
-    second: Vending Machine.001|Shader NodetreeAction.030
+      74: 8141048839232415728
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.030
   - first:
-      74: 1486035744199638334
-    second: Vending Machine.001|Shader NodetreeAction.032
+      74: -5140076647962111145
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.031
   - first:
-      74: -4500246212360338441
-    second: Vending Machine.001|Shader NodetreeAction.035
+      74: -6388258655121518009
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.032
   - first:
-      74: -7756200670581470085
-    second: Vending Machine.001|Shader NodetreeAction.036
+      74: -5495744127493102290
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.033
   - first:
-      74: 5991470199170132199
-    second: Vending Machine.001|Shader NodetreeAction.037
+      74: 4509124236321894012
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.034
   - first:
-      74: 5532222077772990627
-    second: Vending Machine.001|Shader NodetreeAction.038
+      74: -5138817692003441747
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.035
   - first:
-      74: 3296248832325357027
-    second: Vending Machine.001|Shader NodetreeAction.039
+      74: 8420819461318666577
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.036
   - first:
-      74: -2264140763992448053
-    second: Vending Machine.001|Shader NodetreeAction.040
+      74: 6403710863303882892
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.037
   - first:
-      74: -9047790545276022463
-    second: Vending Machine.001|Shader NodetreeAction.041
+      74: -2731794567025116346
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.038
   - first:
-      74: -2445585130022078330
-    second: Vending Machine.001|Shader NodetreeAction.042
+      74: -3367010403018049557
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.039
   - first:
-      74: 2470259946174279822
-    second: Vending Machine.001|Shader NodetreeAction.043
+      74: 4638706059100397398
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.040
   - first:
-      74: 2878582693783325351
-    second: Vending Machine.001|Shader NodetreeAction.044
+      74: 6000900787307378623
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.041
   - first:
-      74: -1778181456553810500
-    second: Vending Machine.001|Shader NodetreeAction.045
+      74: -4392968210484390591
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.042
   - first:
-      74: -8150432060782745862
-    second: Vending Machine.001|Shader NodetreeAction.046
+      74: -8744123669798144111
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.043
   - first:
-      74: 8914195347367419657
-    second: Vending Machine.001|Shader NodetreeAction.047
+      74: 9127072111022750964
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.044
   - first:
-      74: 1976070209955173353
-    second: Vending Machine.001|Shader NodetreeAction.048
+      74: 5792734035610047662
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.045
   - first:
-      74: -4952813968373447481
-    second: Vending Machine.001|Shader NodetreeAction.049
+      74: 2932347299124467123
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.046
   - first:
-      74: -2452847387590321934
-    second: Vending Machine.001|Shader NodetreeAction.050
+      74: 7555728952727925193
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.047
   - first:
-      74: -699145516272242082
-    second: Vending Machine.001|Shader NodetreeAction.051
+      74: 3901877676512133674
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.048
   - first:
-      74: 4530398632495957676
-    second: Vending Machine.001|Shader NodetreeAction.052
+      74: -1743800946434265326
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.049
   - first:
-      74: 3769400955817225852
-    second: Vending Machine.001|Shader NodetreeAction.053
+      74: -2158231051635606336
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.050
   - first:
-      74: 8164985792414516565
-    second: Vending Machine.001|Shader NodetreeAction.054
+      74: -7206777264308767870
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.051
   - first:
-      74: -5267189979175282280
-    second: Vending Machine.001|Shader NodetreeAction.055
+      74: -6684672961766224989
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.052
   - first:
-      74: 3330316436008918125
-    second: Vending Machine.001|Shader NodetreeAction.056
+      74: 2922397943624217531
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.053
   - first:
-      74: -1758181238117335979
-    second: Vending Machine.001|Shader NodetreeAction.057
+      74: 366141357724092316
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.054
   - first:
-      74: 6859383479415600287
-    second: Vending Machine.001|Shader NodetreeAction.058
+      74: 2156591623892971603
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.055
   - first:
-      74: 1107341611556770128
-    second: Vending Machine.001|Shader NodetreeAction.059
+      74: 8330679059520217452
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.056
   - first:
-      74: 2301637632817277288
-    second: Vending Machine.001|Shader NodetreeAction.060
+      74: 8991908778389646232
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeActi.057
   - first:
-      74: -6805051323130342286
-    second: Vending Machine.001|Shader NodetreeAction.061
+      74: 222404519932038189
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeAction.0
   - first:
-      74: 68646025534217246
-    second: Vending Machine.001|Shader NodetreeAction.062
+      74: -1408976108902640147
+    second: snack|Vending Machine.001|Vending Machine.001|Shader NodetreeAction|V
   - first:
-      74: 5677254688006725317
-    second: Vending Machine.001|Vending Machine.001Action
+      74: -5034624197458503546
+    second: snack|Vending Machine.001|Vending Machine.001|Vending Machine.001Acti
   - first:
-      74: 4412400959359877493
-    second: Vending Machine.001|Vending Machine.002Action
+      74: 8606105649352249062
+    second: snack|Vending Machine.001|Vending Machine.001|Vending Machine.002Acti
   - first:
-      74: -3622029471518503812
-    second: Vending Machine.001|Vending Machine.018Action
+      74: -627331162786231054
+    second: snack|Vending Machine.001|Vending Machine.001|Vending Machine.018Acti
   - first:
-      74: 7195214604402618678
-    second: Vending Machine.002|Shader NodetreeAction
+      74: -7398190799213491029
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi
   - first:
-      74: 5510417583192331787
-    second: Vending Machine.002|Shader NodetreeAction.001
+      74: -798194630798898867
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.001
   - first:
-      74: 1306312591777917424
-    second: Vending Machine.002|Shader NodetreeAction.002
+      74: -2334800995932901349
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.002
   - first:
-      74: -1677114509907463778
-    second: Vending Machine.002|Shader NodetreeAction.003
+      74: 4929070898414367774
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.003
   - first:
-      74: -6552668702964472233
-    second: Vending Machine.002|Shader NodetreeAction.004
+      74: 724573331092408368
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.004
   - first:
-      74: -8036684272830826911
-    second: Vending Machine.002|Shader NodetreeAction.005
+      74: -1687660493410610596
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.005
   - first:
-      74: -442522197159001895
-    second: Vending Machine.002|Shader NodetreeAction.006
+      74: -7736635013761511974
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.006
   - first:
-      74: -2058566762704575801
-    second: Vending Machine.002|Shader NodetreeAction.007
+      74: 3850918089469109759
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.007
   - first:
-      74: -1431955559977637654
-    second: Vending Machine.002|Shader NodetreeAction.008
+      74: 7350377746433119963
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.008
   - first:
-      74: -7983396850263014327
-    second: Vending Machine.002|Shader NodetreeAction.009
+      74: 7271751815624229304
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.009
   - first:
-      74: -2185330467619682578
-    second: Vending Machine.002|Shader NodetreeAction.010
+      74: -9180283529009587640
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.010
   - first:
-      74: 7927057934481418839
-    second: Vending Machine.002|Shader NodetreeAction.011
+      74: 3053211768235230822
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.011
   - first:
-      74: -1825759654917345150
-    second: Vending Machine.002|Shader NodetreeAction.012
+      74: 1866798881793951025
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.012
   - first:
-      74: 3260461534579789874
-    second: Vending Machine.002|Shader NodetreeAction.013
+      74: 848069225715861533
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.013
   - first:
-      74: 6009548064493392112
-    second: Vending Machine.002|Shader NodetreeAction.014
+      74: -3811258576268603565
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.014
   - first:
-      74: -3578666202685524434
-    second: Vending Machine.002|Shader NodetreeAction.015
+      74: -7476280747800904773
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.015
   - first:
-      74: -6424403856646626547
-    second: Vending Machine.002|Shader NodetreeAction.016
+      74: -6075510149166683417
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.016
   - first:
-      74: -8863704330901755006
-    second: Vending Machine.002|Shader NodetreeAction.017
+      74: -6275444011532031691
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.017
   - first:
-      74: -6965605552508926319
-    second: Vending Machine.002|Shader NodetreeAction.018
+      74: -6827335562441523039
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.018
   - first:
-      74: -6507641869220928285
-    second: Vending Machine.002|Shader NodetreeAction.019
+      74: -5158942307594666231
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.019
   - first:
-      74: -3066734948309283066
-    second: Vending Machine.002|Shader NodetreeAction.020
+      74: 8753455776742481946
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.020
   - first:
-      74: 3384390480599605082
-    second: Vending Machine.002|Shader NodetreeAction.021
+      74: 9002725813932864436
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.021
   - first:
-      74: 17598709388121474
-    second: Vending Machine.002|Shader NodetreeAction.022
+      74: 5731926013707072761
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.022
   - first:
-      74: -250840687772726201
-    second: Vending Machine.002|Shader NodetreeAction.023
+      74: -2413752746452930792
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.023
   - first:
-      74: 5560255909367432739
-    second: Vending Machine.002|Shader NodetreeAction.024
+      74: 4964509296270481568
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.024
   - first:
-      74: -8901635608650439824
-    second: Vending Machine.002|Shader NodetreeAction.025
+      74: 5107278357736726891
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.025
   - first:
-      74: 6017936740665073154
-    second: Vending Machine.002|Shader NodetreeAction.026
+      74: -4163409537741680404
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.026
   - first:
-      74: -6471969445346141378
-    second: Vending Machine.002|Shader NodetreeAction.027
+      74: 1027526897786170077
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.027
   - first:
-      74: -59559578106631418
-    second: Vending Machine.002|Shader NodetreeAction.028
+      74: 1228848275956866093
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.028
   - first:
-      74: 2109346340691951861
-    second: Vending Machine.002|Shader NodetreeAction.029
+      74: -8114056194434866961
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.029
   - first:
-      74: -6056457284058395064
-    second: Vending Machine.002|Shader NodetreeAction.030
+      74: 5256958666330159675
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.030
   - first:
-      74: -3396354530140671962
-    second: Vending Machine.002|Shader NodetreeAction.032
+      74: -7032609420174560867
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.031
   - first:
-      74: -4416221717562506207
-    second: Vending Machine.002|Shader NodetreeAction.035
+      74: 4894936956955036597
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.032
   - first:
-      74: 2889057611708312043
-    second: Vending Machine.002|Shader NodetreeAction.036
+      74: -6469037848592375559
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.033
   - first:
-      74: -8586648131755599337
-    second: Vending Machine.002|Shader NodetreeAction.037
+      74: 8118471824001157489
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.034
   - first:
-      74: 8810858685632362223
-    second: Vending Machine.002|Shader NodetreeAction.038
+      74: -527271977262307057
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.035
   - first:
-      74: -8301717400875356758
-    second: Vending Machine.002|Shader NodetreeAction.039
+      74: 5034013858321861381
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.036
   - first:
-      74: -3823012917993604383
-    second: Vending Machine.002|Shader NodetreeAction.040
+      74: 1113387776770105990
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.037
   - first:
-      74: 6316369302831194524
-    second: Vending Machine.002|Shader NodetreeAction.041
+      74: 3277909965893234699
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.038
   - first:
-      74: 2505610308499605714
-    second: Vending Machine.002|Shader NodetreeAction.042
+      74: 6373221242488027460
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.039
   - first:
-      74: -4919865688526427260
-    second: Vending Machine.002|Shader NodetreeAction.043
+      74: -7407912105832598146
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.040
   - first:
-      74: -5180670314830705956
-    second: Vending Machine.002|Shader NodetreeAction.044
+      74: 4495681186050484459
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.041
   - first:
-      74: -7142418386784771417
-    second: Vending Machine.002|Shader NodetreeAction.045
+      74: 4277918315914705734
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.042
   - first:
-      74: 6183877222530275254
-    second: Vending Machine.002|Shader NodetreeAction.046
+      74: 3074808896641331528
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.043
   - first:
-      74: -324196999046903278
-    second: Vending Machine.002|Shader NodetreeAction.047
+      74: 6978481452217981062
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.044
   - first:
-      74: 3433522154664173603
-    second: Vending Machine.002|Shader NodetreeAction.048
+      74: 1631867567989172770
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.045
   - first:
-      74: -3276072250654699529
-    second: Vending Machine.002|Shader NodetreeAction.049
+      74: 209515381135431886
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.046
   - first:
-      74: -3972767723097570561
-    second: Vending Machine.002|Shader NodetreeAction.050
+      74: -6496250768818145267
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.047
   - first:
-      74: -3552017447530468797
-    second: Vending Machine.002|Shader NodetreeAction.051
+      74: -4272590392729131140
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.048
   - first:
-      74: 1011944849757693420
-    second: Vending Machine.002|Shader NodetreeAction.052
+      74: -1256155635846356608
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.049
   - first:
-      74: 173746167481842940
-    second: Vending Machine.002|Shader NodetreeAction.053
+      74: 1698524489991925931
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.050
   - first:
-      74: -4568905248605793756
-    second: Vending Machine.002|Shader NodetreeAction.054
+      74: 3989782390875793020
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.051
   - first:
-      74: -9110859775191982677
-    second: Vending Machine.002|Shader NodetreeAction.055
+      74: -3693962146869384459
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.052
   - first:
-      74: 3762252423636792148
-    second: Vending Machine.002|Shader NodetreeAction.056
+      74: 2077843765488179196
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.053
   - first:
-      74: 8872713324332297898
-    second: Vending Machine.002|Shader NodetreeAction.057
+      74: -6996174541377733786
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.054
   - first:
-      74: 8779258172179921602
-    second: Vending Machine.002|Shader NodetreeAction.058
+      74: 3235385040406050310
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.055
   - first:
-      74: 67906391615678651
-    second: Vending Machine.002|Shader NodetreeAction.059
+      74: -2873283622179860202
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.056
   - first:
-      74: -3019937287587440873
-    second: Vending Machine.002|Shader NodetreeAction.060
+      74: 420991817984696456
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeActi.057
   - first:
-      74: 4643071360564678288
-    second: Vending Machine.002|Shader NodetreeAction.061
+      74: -639181748046984758
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeAction.0
   - first:
-      74: -8815715914642625797
-    second: Vending Machine.002|Shader NodetreeAction.062
+      74: -4607842656739694535
+    second: snack|Vending Machine.002|Vending Machine.002|Shader NodetreeAction|V
   - first:
-      74: 3946682361970359154
-    second: Vending Machine.002|Vending Machine.001Action
+      74: 7212119098459575790
+    second: snack|Vending Machine.002|Vending Machine.002|Vending Machine.001Acti
   - first:
-      74: -2863092805309981660
-    second: Vending Machine.002|Vending Machine.002Action
+      74: 7651480624911865124
+    second: snack|Vending Machine.002|Vending Machine.002|Vending Machine.002Acti
   - first:
-      74: 4437692295572046261
-    second: Vending Machine.002|Vending Machine.018Action
+      74: -623955567683151471
+    second: snack|Vending Machine.002|Vending Machine.002|Vending Machine.018Acti
   - first:
-      74: -5345569879435282385
-    second: Vending Machine.018|Shader NodetreeAction
+      74: 2402928276650374085
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi
   - first:
-      74: 7203243977459291979
-    second: Vending Machine.018|Shader NodetreeAction.001
+      74: 5635449556325744474
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.001
   - first:
-      74: 1221644884283434337
-    second: Vending Machine.018|Shader NodetreeAction.002
+      74: 4663846380717977355
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.002
   - first:
-      74: 1170044900558532146
-    second: Vending Machine.018|Shader NodetreeAction.003
+      74: 8824020647203182310
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.003
   - first:
-      74: 1772873131879004658
-    second: Vending Machine.018|Shader NodetreeAction.004
+      74: 504547536290198617
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.004
   - first:
-      74: 7022561165027982518
-    second: Vending Machine.018|Shader NodetreeAction.005
+      74: -301919370152008763
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.005
   - first:
-      74: -6264813317817979836
-    second: Vending Machine.018|Shader NodetreeAction.006
+      74: -2082635465046150434
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.006
   - first:
-      74: -4861121702708455564
-    second: Vending Machine.018|Shader NodetreeAction.007
+      74: -6053266982485228109
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.007
   - first:
-      74: 6542704549160096274
-    second: Vending Machine.018|Shader NodetreeAction.008
+      74: -3484047556674339762
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.008
   - first:
-      74: -1733198432865904436
-    second: Vending Machine.018|Shader NodetreeAction.009
+      74: 4937858504689603957
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.009
   - first:
-      74: -4837401240434780484
-    second: Vending Machine.018|Shader NodetreeAction.010
+      74: -517803145080920599
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.010
   - first:
-      74: -197673548131141240
-    second: Vending Machine.018|Shader NodetreeAction.011
+      74: -6277983597105384188
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.011
   - first:
-      74: 933573185685346123
-    second: Vending Machine.018|Shader NodetreeAction.012
+      74: -6040737133968009296
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.012
   - first:
-      74: 2169369744861622766
-    second: Vending Machine.018|Shader NodetreeAction.013
+      74: 3461364028489220567
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.013
   - first:
-      74: 3883176719860459146
-    second: Vending Machine.018|Shader NodetreeAction.014
+      74: -2833292454904525708
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.014
   - first:
-      74: -4517053607070263046
-    second: Vending Machine.018|Shader NodetreeAction.015
+      74: 1306749704423078060
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.015
   - first:
-      74: -6715788265037388427
-    second: Vending Machine.018|Shader NodetreeAction.016
+      74: -4180230582909592364
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.016
   - first:
-      74: 7760857971702369447
-    second: Vending Machine.018|Shader NodetreeAction.017
+      74: -1654846151826368769
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.017
   - first:
-      74: 4763138989698900631
-    second: Vending Machine.018|Shader NodetreeAction.018
+      74: 8333571345212120265
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.018
   - first:
-      74: -8011600583559214703
-    second: Vending Machine.018|Shader NodetreeAction.019
+      74: -182954947240114430
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.019
   - first:
-      74: 7451530669630039123
-    second: Vending Machine.018|Shader NodetreeAction.020
+      74: 2105528461630553702
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.020
   - first:
-      74: -4049217717950447219
-    second: Vending Machine.018|Shader NodetreeAction.021
+      74: 1074665336625552269
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.021
   - first:
-      74: -1492927974940486352
-    second: Vending Machine.018|Shader NodetreeAction.022
+      74: 1175534991868450216
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.022
   - first:
-      74: -8344986286302712292
-    second: Vending Machine.018|Shader NodetreeAction.023
+      74: 872430717294289609
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.023
   - first:
-      74: 1999902053156744201
-    second: Vending Machine.018|Shader NodetreeAction.024
+      74: 8935138823382988936
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.024
   - first:
-      74: -2780546289588694132
-    second: Vending Machine.018|Shader NodetreeAction.025
+      74: -4405847684646734109
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.025
   - first:
-      74: 4436927700668002413
-    second: Vending Machine.018|Shader NodetreeAction.026
+      74: 8248878183510699995
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.026
   - first:
-      74: -4669566746760251573
-    second: Vending Machine.018|Shader NodetreeAction.027
+      74: -4558056007397343139
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.027
   - first:
-      74: -1726552270310200332
-    second: Vending Machine.018|Shader NodetreeAction.028
+      74: -5421049943811912302
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.028
   - first:
-      74: -7824912416599475081
-    second: Vending Machine.018|Shader NodetreeAction.029
+      74: -2393432897110228153
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.029
   - first:
-      74: 7452830849769563326
-    second: Vending Machine.018|Shader NodetreeAction.030
+      74: -2184926099658095198
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.030
   - first:
-      74: 8182749775835326956
-    second: Vending Machine.018|Shader NodetreeAction.032
+      74: 5158103182053264359
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.031
   - first:
-      74: 5332602355765948755
-    second: Vending Machine.018|Shader NodetreeAction.035
+      74: 8566299819360441069
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.032
   - first:
-      74: 873642435025620280
-    second: Vending Machine.018|Shader NodetreeAction.036
+      74: 956834511352655282
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.033
   - first:
-      74: -9119765264041710205
-    second: Vending Machine.018|Shader NodetreeAction.037
+      74: 3733159329835186304
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.034
   - first:
-      74: 1031084362303722320
-    second: Vending Machine.018|Shader NodetreeAction.038
+      74: 5995135953004432865
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.035
   - first:
-      74: 5850862084409904163
-    second: Vending Machine.018|Shader NodetreeAction.039
+      74: -6401677718036837717
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.036
   - first:
-      74: 4831120670236720017
-    second: Vending Machine.018|Shader NodetreeAction.040
+      74: 4876903873079399359
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.037
   - first:
-      74: -2690877379026316525
-    second: Vending Machine.018|Shader NodetreeAction.041
+      74: 7754538450798851598
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.038
   - first:
-      74: -3289329961293112377
-    second: Vending Machine.018|Shader NodetreeAction.042
+      74: 5220914988476420851
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.039
   - first:
-      74: -3265002547202728653
-    second: Vending Machine.018|Shader NodetreeAction.043
+      74: 5337786549430264484
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.040
   - first:
-      74: 3886571105320174857
-    second: Vending Machine.018|Shader NodetreeAction.044
+      74: -5195232547353284742
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.041
   - first:
-      74: 2439888903071989092
-    second: Vending Machine.018|Shader NodetreeAction.045
+      74: 3701065806283690369
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.042
   - first:
-      74: 4682751903548814797
-    second: Vending Machine.018|Shader NodetreeAction.046
+      74: -5051380992847755800
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.043
   - first:
-      74: -1714162246021557759
-    second: Vending Machine.018|Shader NodetreeAction.047
+      74: 4763408419842861841
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.044
   - first:
-      74: 2903182254590947931
-    second: Vending Machine.018|Shader NodetreeAction.048
+      74: 2174923924998462766
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.045
   - first:
-      74: -4962159392789903574
-    second: Vending Machine.018|Shader NodetreeAction.049
+      74: -6939731893599954181
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.046
   - first:
-      74: -6885505569485762976
-    second: Vending Machine.018|Shader NodetreeAction.050
+      74: -3507216193613463489
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.047
   - first:
-      74: -5254008645467856278
-    second: Vending Machine.018|Shader NodetreeAction.051
+      74: 3693164755766569287
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.048
   - first:
-      74: 3238456345499629777
-    second: Vending Machine.018|Shader NodetreeAction.052
+      74: 7651576491356947788
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.049
   - first:
-      74: 4308595633726547433
-    second: Vending Machine.018|Shader NodetreeAction.053
+      74: 7677601488138211464
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.050
   - first:
-      74: 3977561753008314021
-    second: Vending Machine.018|Shader NodetreeAction.054
+      74: -732975861741345614
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.051
   - first:
-      74: 9188677700845797396
-    second: Vending Machine.018|Shader NodetreeAction.055
+      74: -8995717610790079481
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.052
   - first:
-      74: -8811450462052999563
-    second: Vending Machine.018|Shader NodetreeAction.056
+      74: 1723612149881383513
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.053
   - first:
-      74: 4969893578765487012
-    second: Vending Machine.018|Shader NodetreeAction.057
+      74: 8562830839504570714
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.054
   - first:
-      74: 8168916654595029655
-    second: Vending Machine.018|Shader NodetreeAction.058
+      74: -2429589960311127634
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.055
   - first:
-      74: -2446258948916761641
-    second: Vending Machine.018|Shader NodetreeAction.059
+      74: -6802093905297443320
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.056
   - first:
-      74: 2293869437647641370
-    second: Vending Machine.018|Shader NodetreeAction.060
+      74: -6044624621633455531
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeActi.057
   - first:
-      74: 50591370593412808
-    second: Vending Machine.018|Shader NodetreeAction.061
+      74: -5318762024318235975
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeAction.0
   - first:
-      74: 6323488898509967456
-    second: Vending Machine.018|Shader NodetreeAction.062
+      74: 4103491173944990900
+    second: snack|Vending Machine.018|Vending Machine.018|Shader NodetreeAction|V
   - first:
-      74: -4346498174234923948
-    second: Vending Machine.018|Vending Machine.001Action
+      74: -9082844645691766130
+    second: snack|Vending Machine.018|Vending Machine.018|Vending Machine.001Acti
   - first:
-      74: -8362844485282140702
-    second: Vending Machine.018|Vending Machine.002Action
+      74: -7475999583606520506
+    second: snack|Vending Machine.018|Vending Machine.018|Vending Machine.002Acti
   - first:
-      74: 1140632182892979944
-    second: Vending Machine.018|Vending Machine.018Action
+      74: 9040746228476212841
+    second: snack|Vending Machine.018|Vending Machine.018|Vending Machine.018Acti
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -636,7 +636,7 @@ ModelImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 1
+  importAnimation: 0
   humanDescription:
     serializedVersion: 3
     human: []
