@@ -5,9 +5,14 @@ using UnityEngine;
 public class pausaUpgrade : MonoBehaviour
 {
 
-    [SerializeField] private GameObject pauseMenuUI, canvas, player;
+    [SerializeField] private GameObject pauseMenuUI, canvas; //player;
    
     [SerializeField] private bool isPaused;
+    private GameObject game = null;
+    private void Start()
+    {
+        game = GameObject.FindGameObjectWithTag("Player");
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -29,8 +34,10 @@ public class pausaUpgrade : MonoBehaviour
     {
         Time.timeScale = 0f;
         pauseMenuUI.SetActive(true);
+        //        GameObject.FindGameObjectWithTag("Player").SetActive(false);
+        game.SetActive(false);
         canvas.SetActive(false);
-        player.SetActive(false);
+//        player.SetActive(false);
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         AudioListener.pause = true;
@@ -44,7 +51,9 @@ public class pausaUpgrade : MonoBehaviour
         pauseMenuUI.SetActive(false);
         isPaused = false;
         canvas.SetActive(true);
-        player.SetActive(true);
+        game.SetActive(true);
+        //  GameObject.FindGameObjectWithTag("Player").SetActive(true);
+        //player.SetActive(true);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         AudioListener.pause = false;
