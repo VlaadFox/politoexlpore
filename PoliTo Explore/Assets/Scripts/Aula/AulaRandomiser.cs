@@ -10,6 +10,8 @@ public class AulaRandomiser : MonoBehaviour
     public Banco[] banchi;
     [SerializeField] private SpawnManagerScriptableObject SpawnManager;
     [SerializeField] private GameObject Cattedra;
+    public GameObject[] Libri;
+    public GameObject Penne;
 
     public Transform PlayerStartPos;
 
@@ -18,11 +20,12 @@ public class AulaRandomiser : MonoBehaviour
 
     void Start()
     {
-        GameObject.Find("Player").transform.position= PlayerStartPos.position;
+        //GameObject.Find("Player").transform.position= PlayerStartPos.position;
         banchi = GameObject.FindObjectsOfType<Banco>();
         _objectsToSpawn = SpawnManager.GetObjectsToSpawn();
         Randomise();
         RandomiseStudents();
+        PenneLibri();
         //avg();
     }
 
@@ -58,7 +61,7 @@ public class AulaRandomiser : MonoBehaviour
                 GameObject go = Instantiate(_objectsToSpawn[_index]);
 
                 Vector3 pos = new Vector3(b.transform.position.x, b.transform.position.y, b.transform.position.z + 0.70281f);
-                go.transform.position = pos; //TODO: aggiustare posizione davanti al banco 
+                go.transform.position = pos; 
                 b.ApriSedia();
             }
             
@@ -74,12 +77,23 @@ public class AulaRandomiser : MonoBehaviour
             if (Random.Range(0.0f, 1.0f) < _probBancoA)
             {
                 b.ApriBanco();
+                int _index = Random.Range(0, Libri.Length - 1);
+                GameObject _libro = Instantiate(Libri[_index]);
+                Vector3 pos = new Vector3(b.transform.position.x + 0.09534311f, b.transform.position.y + 1.061605f, b.transform.position.z - 0.01986122f);
+                _libro.transform.position = pos;
+
+                GameObject _penna = Instantiate(Penne);
+                pos = new Vector3(b.transform.position.x - 0.1298752f, b.transform.position.y + 1.053005f, b.transform.position.z - 0.06088066f);
+                _penna.transform.rotation *= Quaternion.AngleAxis(Random.Range(-100, 100), Vector3.up);
+                _penna.transform.position = pos;
+                
             }
-            //if (Random.Range(0.0f, 1.0f) < _probSediaA) //messo per prova, penso vada tolto
-            //{
-            //    b.ApriSedia();
-            //}
         }
+    }
+
+    private void PenneLibri()
+    {
+
     }
 
     private void ApriTutto() //Boris reference?

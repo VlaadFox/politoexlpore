@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 9162343047583038878}
   - component: {fileID: 6450928537105868838}
   - component: {fileID: 3676024090416012555}
-  - component: {fileID: 7302555634527748859}
   m_Layer: 0
   m_Name: Lead
   m_TagString: Untagged
@@ -80,20 +79,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &7302555634527748859
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3476820042211174961}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300002, guid: 4201b78d8f0b590408a933e8f8af13c2, type: 3}
 --- !u!1 &3689961420635674414
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,7 +90,6 @@ GameObject:
   - component: {fileID: 7881809720475510646}
   - component: {fileID: 6520340143429592506}
   - component: {fileID: 9203571977003452038}
-  - component: {fileID: 7302555634527748860}
   m_Layer: 0
   m_Name: Cap
   m_TagString: Untagged
@@ -174,20 +158,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &7302555634527748860
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3689961420635674414}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300006, guid: 4201b78d8f0b590408a933e8f8af13c2, type: 3}
 --- !u!1 &5590473335200554049
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,7 +169,6 @@ GameObject:
   - component: {fileID: 5185652215849908344}
   - component: {fileID: 1534073118575368579}
   - component: {fileID: 3040690073722580799}
-  - component: {fileID: 7302555634527748861}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -268,20 +237,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &7302555634527748861
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5590473335200554049}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 4201b78d8f0b590408a933e8f8af13c2, type: 3}
 --- !u!1 &7536034832388907271
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,7 +248,6 @@ GameObject:
   - component: {fileID: 3681352876995189170}
   - component: {fileID: 7672019577294354727}
   - component: {fileID: 4093783417842222661}
-  - component: {fileID: 7302555634527748858}
   m_Layer: 0
   m_Name: Tip
   m_TagString: Untagged
@@ -362,20 +316,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &7302555634527748858
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7536034832388907271}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300004, guid: 4201b78d8f0b590408a933e8f8af13c2, type: 3}
 --- !u!1 &8758348418127908040
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,7 +325,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5751306333152919259}
-  - component: {fileID: 7302555634527748851}
   m_Layer: 0
   m_Name: Pen black
   m_TagString: Untagged
@@ -402,7 +341,7 @@ Transform:
   m_GameObject: {fileID: 8758348418127908040}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.40727943, y: 0.40727943, z: 0.40727943}
   m_Children:
   - {fileID: 5185652215849908344}
   - {fileID: 7881809720475510646}
@@ -411,19 +350,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &7302555634527748851
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8758348418127908040}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0

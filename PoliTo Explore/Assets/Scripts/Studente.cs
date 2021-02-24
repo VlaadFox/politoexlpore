@@ -44,7 +44,9 @@ public class Studente : MonoBehaviour
                 //Debug.Log($"Event Manager:{eventsManager}");
             }
             eventsManager.canestroEvent += Cheer;
-            
+
+            if(!gironzola)
+                Destroy(GetComponent<Rigidbody>());
 
             _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 
