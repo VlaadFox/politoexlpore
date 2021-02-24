@@ -16,7 +16,7 @@ public class InfoMaterie : Interactable
 
     void Update()
     {
-        if (Input.anyKeyDown && _immagineAperta)
+        if (Input.GetKeyDown(KeyCode.N) && _immagineAperta)
         {
             ChiudiImmagine();
         }
@@ -29,9 +29,10 @@ public class InfoMaterie : Interactable
 
     public void ApriImmagine()
     {
-        //Immagine.SetActive(true);         //far apparire l'immagine
-
         _immagineAperta = true;
+        Immagine.SetActive(_immagineAperta);         //far apparire l'immagine
+
+       
         Debug.Log("Interazione bacheca materie, apparizione immagine");
     }
 
@@ -39,7 +40,9 @@ public class InfoMaterie : Interactable
     {
 
         //Far scomparire l'immagine
+    
         _immagineAperta = false;
+        Immagine.SetActive(_immagineAperta);
         Debug.Log("l'immagine sparisce");
     }
 }
