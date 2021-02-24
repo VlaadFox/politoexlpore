@@ -15286,6 +15286,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3774317036784492187, guid: 0ca18b027fc6dca4ab785af81a876e99,
         type: 3}
+      propertyPath: Libri.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3774317036784492187, guid: 0ca18b027fc6dca4ab785af81a876e99,
+        type: 3}
       propertyPath: Cattedra
       value: 
       objectReference: {fileID: 1456349700501136347}
@@ -15294,6 +15299,27 @@ PrefabInstance:
       propertyPath: PlayerStartPos
       value: 
       objectReference: {fileID: 289341128}
+    - target: {fileID: 3774317036784492187, guid: 0ca18b027fc6dca4ab785af81a876e99,
+        type: 3}
+      propertyPath: Penne
+      value: 
+      objectReference: {fileID: 8758348418127908040, guid: 83042a5eb5c40da4197716921b77d573,
+        type: 3}
+    - target: {fileID: 3774317036784492187, guid: 0ca18b027fc6dca4ab785af81a876e99,
+        type: 3}
+      propertyPath: Libri.Array.data[0]
+      value: 
+      objectReference: {fileID: 100000, guid: cba00f75539bc564fabb9136fccfac6c, type: 3}
+    - target: {fileID: 3774317036784492187, guid: 0ca18b027fc6dca4ab785af81a876e99,
+        type: 3}
+      propertyPath: Libri.Array.data[1]
+      value: 
+      objectReference: {fileID: 100000, guid: f9ec2f5b43ac0204199acdb66395048b, type: 3}
+    - target: {fileID: 3774317036784492187, guid: 0ca18b027fc6dca4ab785af81a876e99,
+        type: 3}
+      propertyPath: Libri.Array.data[2]
+      value: 
+      objectReference: {fileID: 100000, guid: f99df1970d4b71441a320ce6acc52709, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ca18b027fc6dca4ab785af81a876e99, type: 3}
 --- !u!1001 &846020575

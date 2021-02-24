@@ -67,6 +67,7 @@ public class Studente : MonoBehaviour
             //Destroy(this.transform.Find("mixamorig:Hips/mixamorig:Spine/Zaino"));
             Destroy(GetComponent<UnityEngine.AI.NavMeshAgent>());
             Destroy(GetComponent<Rigidbody>());
+            //_animator.Play("Sit", 0, 0);
         }
     }
 
@@ -108,6 +109,7 @@ public class Studente : MonoBehaviour
         }
         if (_navMeshAgent != null)
             _navMeshAgent.isStopped = true;
+        UpdateAnimations();
     }
 
     private void UpdateAnimations()
@@ -135,6 +137,7 @@ public class Studente : MonoBehaviour
         }
         else{
             _animator.SetBool("sit", true);
+            //_animator.Play("Sit", 0, 0);
         }
 
     }
