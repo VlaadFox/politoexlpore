@@ -79,6 +79,7 @@ MonoBehaviour:
   _closeOnExit: 1
   eventsManager: {fileID: 0}
   portaSingola: 0
+  portaInternoAula: 0
 --- !u!1 &6887223317886029615
 GameObject:
   m_ObjectHideFlags: 0

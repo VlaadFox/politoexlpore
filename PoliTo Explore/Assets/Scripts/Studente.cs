@@ -44,8 +44,11 @@ public class Studente : MonoBehaviour
             }
             eventsManager.canestroEvent += Cheer;
 
-            if(!gironzola)
+            if (!gironzola)
+            {
                 Destroy(GetComponent<Rigidbody>());
+                _animator.Play("Breathing Idle", 0, Random.Range(0f, 0.5f));
+            }
 
             _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 
