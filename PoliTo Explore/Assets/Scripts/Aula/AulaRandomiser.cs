@@ -20,7 +20,7 @@ public class AulaRandomiser : MonoBehaviour
 
     void Start()
     {
-        //GameObject.Find("Player").transform.position= PlayerStartPos.position;
+        GameObject.Find("Player").transform.position= PlayerStartPos.position;
         banchi = GameObject.FindObjectsOfType<Banco>();
         _objectsToSpawn = SpawnManager.GetObjectsToSpawn();
         Randomise();

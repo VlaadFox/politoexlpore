@@ -7613,6 +7613,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8076068088688551109, guid: 241fc8af648e271449377873c9012462,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8076068088688551111, guid: 241fc8af648e271449377873c9012462,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15067,6 +15072,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99df1970d4b71441a320ce6acc52709, type: 3}
+--- !u!1 &830346836 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: f99df1970d4b71441a320ce6acc52709,
+    type: 3}
+  m_PrefabInstance: {fileID: 830346835}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &834460819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15301,25 +15312,39 @@ PrefabInstance:
       objectReference: {fileID: 289341128}
     - target: {fileID: 3774317036784492187, guid: 0ca18b027fc6dca4ab785af81a876e99,
         type: 3}
-      propertyPath: Penne
-      value: 
-      objectReference: {fileID: 8758348418127908040, guid: 83042a5eb5c40da4197716921b77d573,
-        type: 3}
-    - target: {fileID: 3774317036784492187, guid: 0ca18b027fc6dca4ab785af81a876e99,
-        type: 3}
       propertyPath: Libri.Array.data[0]
       value: 
-      objectReference: {fileID: 100000, guid: cba00f75539bc564fabb9136fccfac6c, type: 3}
+      objectReference: {fileID: 1013885133}
     - target: {fileID: 3774317036784492187, guid: 0ca18b027fc6dca4ab785af81a876e99,
         type: 3}
       propertyPath: Libri.Array.data[1]
       value: 
-      objectReference: {fileID: 100000, guid: f9ec2f5b43ac0204199acdb66395048b, type: 3}
+      objectReference: {fileID: 1371584364}
     - target: {fileID: 3774317036784492187, guid: 0ca18b027fc6dca4ab785af81a876e99,
         type: 3}
       propertyPath: Libri.Array.data[2]
       value: 
-      objectReference: {fileID: 100000, guid: f99df1970d4b71441a320ce6acc52709, type: 3}
+      objectReference: {fileID: 830346836}
+    - target: {fileID: 3774317036784492187, guid: 0ca18b027fc6dca4ab785af81a876e99,
+        type: 3}
+      propertyPath: Penne
+      value: 
+      objectReference: {fileID: 1607450320}
+    - target: {fileID: 3774317036784492187, guid: 0ca18b027fc6dca4ab785af81a876e99,
+        type: 3}
+      propertyPath: _probBancoA
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3774317036784492187, guid: 0ca18b027fc6dca4ab785af81a876e99,
+        type: 3}
+      propertyPath: _probSediaA
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3774317036784492187, guid: 0ca18b027fc6dca4ab785af81a876e99,
+        type: 3}
+      propertyPath: _probStudente
+      value: 0.8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ca18b027fc6dca4ab785af81a876e99, type: 3}
 --- !u!1001 &846020575
@@ -18083,6 +18108,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cba00f75539bc564fabb9136fccfac6c, type: 3}
+--- !u!1 &1013885133 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: cba00f75539bc564fabb9136fccfac6c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1013885132}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1020320257
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23811,6 +23842,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9ec2f5b43ac0204199acdb66395048b, type: 3}
+--- !u!1 &1371584364 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: f9ec2f5b43ac0204199acdb66395048b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1371584363}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1371980453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28223,6 +28260,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 205900fadbb091d4bb74b3a6253cfbdc, type: 3}
+--- !u!1 &1607450320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7242734902216313324, guid: 205900fadbb091d4bb74b3a6253cfbdc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1607450319}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1617746604
 PrefabInstance:
   m_ObjectHideFlags: 0
