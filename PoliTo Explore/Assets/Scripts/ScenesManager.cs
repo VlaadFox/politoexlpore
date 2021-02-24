@@ -54,7 +54,7 @@ public class ScenesManager : MonoBehaviour
         _playerRot = player.transform.rotation *= Quaternion.AngleAxis(180f, Vector3.up);
         Debug.Log($"posizione reale: {player.transform.position}");
         Debug.Log($"posizione salvata: {_playerPos}");
-        SceneManager.LoadScene("Aula_1porta", LoadSceneMode.Single);
+        SceneManager.LoadScene("Aula_1porta", LoadSceneMode.Additive);
         //Debug.Log($"dopo it caricamento1: {_playerPos}");
         
     }
@@ -63,7 +63,7 @@ public class ScenesManager : MonoBehaviour
     {
         _playerPos = player.transform.position - player.transform.forward*0.5f;
         _playerRot = player.transform.rotation *= Quaternion.AngleAxis(180f, Vector3.up);
-        SceneManager.LoadScene("Aula_3porte", LoadSceneMode.Single);
+        SceneManager.LoadScene("Aula_3porte", LoadSceneMode.Additive);
     }
 
     public void LoadPrincipale()

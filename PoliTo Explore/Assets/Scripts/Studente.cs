@@ -13,8 +13,6 @@ public class Studente : MonoBehaviour
 
     public EventsManager eventsManager;
 
-
-    private Spawner[] _spawnpoints;
     private UnityEngine.AI.NavMeshAgent _navMeshAgent;
     private Animator _animator;
 
@@ -33,6 +31,7 @@ public class Studente : MonoBehaviour
     {
         sounds = GetComponents<AudioSource>();
         clap = sounds[0];
+
 
         _animator = GetComponent<Animator>();
         //Debug.Log("Scena di appartenenza: " + this.gameObject.scene.name);
@@ -67,8 +66,10 @@ public class Studente : MonoBehaviour
             //Destroy(this.transform.Find("mixamorig:Hips/mixamorig:Spine/Zaino"));
             Destroy(GetComponent<UnityEngine.AI.NavMeshAgent>());
             Destroy(GetComponent<Rigidbody>());
-            //_animator.Play("Sit", 0, 0);
+            //_animator.SetBool("sit", true);
+            _animator.Play("Sit", 0, Random.Range(0f, 0.5f));
         }
+        
     }
 
 
@@ -98,6 +99,7 @@ public class Studente : MonoBehaviour
         UpdateAnimations();
     }
 
+
     private void Cheer()
     {
 
@@ -120,8 +122,7 @@ public class Studente : MonoBehaviour
             _speed = Mathf.Clamp(_navMeshAgent.desiredVelocity.magnitude, 0f, 1f);
             _animator.SetFloat("speed", _speed);
             if (_animator.GetBool("clapping"))
-            {
-                //Debug.Log($"Tempo mancante aninazione:  {_animationCounter}");
+            { 
                 if (_animationCounter > 0f)
                 {
 
@@ -136,8 +137,7 @@ public class Studente : MonoBehaviour
             }
         }
         else{
-            _animator.SetBool("sit", true);
-            //_animator.Play("Sit", 0, 0);
+            //_animator.SetBool("sit", true);
         }
 
     }

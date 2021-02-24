@@ -5,8 +5,8 @@ using UnityEngine;
 public class AulaRandomiser : MonoBehaviour
 {
     [SerializeField] private float _probBancoA = 0.5f;
-    [SerializeField] private float _probSediaA = 0.5f;
     [SerializeField] private float _probStudente = 0.5f;
+
     public Banco[] banchi;
     [SerializeField] private SpawnManagerScriptableObject SpawnManager;
     [SerializeField] private GameObject Cattedra;
@@ -23,10 +23,9 @@ public class AulaRandomiser : MonoBehaviour
         GameObject.Find("Player").transform.position= PlayerStartPos.position;
         banchi = GameObject.FindObjectsOfType<Banco>();
         _objectsToSpawn = SpawnManager.GetObjectsToSpawn();
-        Randomise();
+        
         RandomiseStudents();
-        PenneLibri();
-        //avg();
+        Randomise();
     }
 
     // Update is called once per frame
@@ -60,8 +59,8 @@ public class AulaRandomiser : MonoBehaviour
                 int _index = Random.Range(0, _objectsToSpawn.Length - 1);
                 GameObject go = Instantiate(_objectsToSpawn[_index]);
 
-                Vector3 pos = new Vector3(b.transform.position.x, b.transform.position.y, b.transform.position.z + 0.70281f);
-                go.transform.position = pos; 
+                Vector3 posStud = new Vector3(b.transform.position.x, b.transform.position.y, b.transform.position.z + 0.70281f);
+                go.transform.position = posStud; 
                 b.ApriSedia();
             }
             
@@ -91,10 +90,7 @@ public class AulaRandomiser : MonoBehaviour
         }
     }
 
-    private void PenneLibri()
-    {
-
-    }
+ 
 
     private void ApriTutto() //Boris reference?
     {
