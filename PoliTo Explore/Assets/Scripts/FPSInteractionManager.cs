@@ -9,6 +9,7 @@ public class FPSInteractionManager : MonoBehaviour
     [SerializeField] private float _interactionDistance;
 
     [SerializeField] private Image _target;
+    //private GameObject _target = null;
 
     //public bool ImmagineASchermo;
 
@@ -24,6 +25,7 @@ public class FPSInteractionManager : MonoBehaviour
     void Start()
     {
         _fpsController = GetComponent<CharacterController>();
+        //_target = GameObject.FindGameObjectWithTag("Hand");
     }
 
     void Update()
