@@ -52,6 +52,7 @@ public class Studente : MonoBehaviour
                 _animator.Play("Breathing Idle", 0, Random.Range(0f, 0.5f));
             }
                 
+             
 
             _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 
@@ -69,7 +70,7 @@ public class Studente : MonoBehaviour
         else
         {
             Debug.Log(this.transform.Find("mixamorig:Hips/mixamorig:Spine/zaino"));
-            //Destroy(this.transform.Find("mixamorig:Hips/mixamorig:Spine/Zaino"));
+            //Destroy(this.transform.Find("mixamorig:Hips/mixamorig:Spine/zaino"));
             Destroy(GetComponent<UnityEngine.AI.NavMeshAgent>());
             Destroy(GetComponent<Rigidbody>());
             //_animator.SetBool("sit", true);
@@ -98,9 +99,6 @@ public class Studente : MonoBehaviour
                     SetDestination();   
                 }
             }
-            
-
-
         }
         UpdateAnimations();
     }
@@ -108,8 +106,6 @@ public class Studente : MonoBehaviour
 
     private void Cheer()
     {
-
-        Debug.Log("Lo studente esulta");
         if (_animator != null)
         {
             _animator.SetBool("clapping", true);
