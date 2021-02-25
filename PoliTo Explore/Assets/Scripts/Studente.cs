@@ -34,6 +34,8 @@ public class Studente : MonoBehaviour
 
 
         _animator = GetComponent<Animator>();
+        _animationCounter = cheerAnimationTime;
+
         //Debug.Log("Scena di appartenenza: " + this.gameObject.scene.name);
         if (this.gameObject.scene.name.Equals("Scena_Principale"))
         {
@@ -44,8 +46,12 @@ public class Studente : MonoBehaviour
             }
             eventsManager.canestroEvent += Cheer;
 
-            if(!gironzola)
+            if (!gironzola)
+            {
                 Destroy(GetComponent<Rigidbody>());
+                _animator.Play("Breathing Idle", 0, Random.Range(0f, 0.5f));
+            }
+                
 
             _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 
@@ -62,7 +68,7 @@ public class Studente : MonoBehaviour
         }
         else
         {
-            //Debug.Log(this.transform.Find("mixamorig:Hips/mixamorig:Spine/Zaino"));
+            Debug.Log(this.transform.Find("mixamorig:Hips/mixamorig:Spine/zaino"));
             //Destroy(this.transform.Find("mixamorig:Hips/mixamorig:Spine/Zaino"));
             Destroy(GetComponent<UnityEngine.AI.NavMeshAgent>());
             Destroy(GetComponent<Rigidbody>());
@@ -103,7 +109,7 @@ public class Studente : MonoBehaviour
     private void Cheer()
     {
 
-        //Debug.Log("Lo studente esulta");
+        Debug.Log("Lo studente esulta");
         if (_animator != null)
         {
             _animator.SetBool("clapping", true);
