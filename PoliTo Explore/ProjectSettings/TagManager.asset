@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DontDestroy
   - Hand
+  - Studenti
   layers:
   - Default
   - TransparentFX

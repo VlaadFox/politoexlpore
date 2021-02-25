@@ -16,7 +16,7 @@ public class New_Auto_door : MonoBehaviour
 
     private void OnTriggerEnter(Collider coll)
     {
-        if (coll.gameObject.tag == "Player")
+        if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Studenti")
         {
             SlideDoors(true);
             collectSound.Play();
@@ -25,7 +25,7 @@ public class New_Auto_door : MonoBehaviour
 
     private void OnTriggerExit(Collider coll)
     {
-        if (coll.gameObject.tag == "Player")
+        if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Studenti")
         {
             SlideDoors(false);
            collectSound.Play();
