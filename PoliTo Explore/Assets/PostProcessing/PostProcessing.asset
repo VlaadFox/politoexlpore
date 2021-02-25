@@ -90,7 +90,7 @@ MonoBehaviour:
     value: 1
   preset:
     overrideState: 1
-    value: 3
+    value: 1
   maximumIterationCount:
     overrideState: 1
     value: 16
@@ -102,12 +102,12 @@ MonoBehaviour:
     value: 8
   maximumMarchDistance:
     overrideState: 1
-    value: 98.4
+    value: 100
   distanceFade:
     overrideState: 1
-    value: 0.059
+    value: 0
   vignette:
-    overrideState: 1
+    overrideState: 0
     value: 0
 --- !u!114 &-3815233334879682746
 MonoBehaviour:
@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
@@ -251,10 +251,10 @@ MonoBehaviour:
     value: 1
   shutterAngle:
     overrideState: 1
-    value: 180
+    value: 10
   sampleCount:
     overrideState: 1
-    value: 10
+    value: 4
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
