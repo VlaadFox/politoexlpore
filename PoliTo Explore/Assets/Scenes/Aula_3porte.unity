@@ -13933,6 +13933,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Menu_
       objectReference: {fileID: 0}
+    - target: {fileID: 7733714552028203341, guid: 9ac4fdd4e48962b458bb413e2ea14c5a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7733714552028203342, guid: 9ac4fdd4e48962b458bb413e2ea14c5a,
         type: 3}
       propertyPath: m_LocalPosition.x
