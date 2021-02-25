@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class ControlM : MonoBehaviour
 {
 
-    [SerializeField] private GameObject bigMap, canvas,canvas1,canvas2, player;
+    [SerializeField] private GameObject bigMap, canvas, canvas1, canvas2; // player;
 
     [SerializeField] private bool isPaused;
     private void Update()
@@ -46,7 +46,7 @@ public class ControlM : MonoBehaviour
         canvas.SetActive(false);
         canvas1.SetActive(false);
         canvas2.SetActive(false);
-        player.SetActive(false);
+        //player.SetActive(false);
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         AudioListener.pause = true;
@@ -62,18 +62,18 @@ public class ControlM : MonoBehaviour
         canvas.SetActive(true);
         canvas1.SetActive(true); 
         canvas2.SetActive(true);
-        player.SetActive(true);
+        //player.SetActive(true);
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         AudioListener.pause = false;
     }
 
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode) //recupera riferimento al player quando la scena si carica
+    /*void OnSceneLoaded(Scene scene, LoadSceneMode mode) //recupera riferimento al player quando la scena si carica
     {
         if (player == null && scene.name.Equals("Scena_Principale"))
         {
             player = GameObject.Find("Player");
         }
             
-    }
+    }*/
 }
