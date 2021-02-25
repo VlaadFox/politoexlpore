@@ -69,7 +69,7 @@ public class Studente : MonoBehaviour
         }
         else
         {
-            Debug.Log(this.transform.Find("mixamorig:Hips/mixamorig:Spine/zaino"));
+            //Debug.Log(this.transform.Find("mixamorig:Hips/mixamorig:Spine/zaino"));
             //Destroy(this.transform.Find("mixamorig:Hips/mixamorig:Spine/zaino"));
             Destroy(GetComponent<UnityEngine.AI.NavMeshAgent>());
             Destroy(GetComponent<Rigidbody>());
@@ -113,7 +113,6 @@ public class Studente : MonoBehaviour
         }
         if (_navMeshAgent != null)
             _navMeshAgent.isStopped = true;
-        UpdateAnimations();
     }
 
     private void UpdateAnimations()
@@ -135,6 +134,7 @@ public class Studente : MonoBehaviour
                     _animator.SetBool("clapping", false);
                     _navMeshAgent.isStopped = false;
                     _animationCounter = cheerAnimationTime;
+                    _animator.Play("Breathing Idle", 0, Random.Range(0f, 0.5f));
                 }
             }
         }
@@ -148,7 +148,6 @@ public class Studente : MonoBehaviour
     {
         if (gironzola)
         {
-            Debug.Log("Collisione");
             SetDestination();
         }
             
