@@ -51,15 +51,16 @@ public class Studente : MonoBehaviour
                 Destroy(GetComponent<Rigidbody>());
                 _animator.Play("Breathing Idle", 0, Random.Range(0f, 0.5f));
             }
-                
-             
-
-            _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+            else
+            {
+                Rigidbody rb = gameObject.AddComponent<Rigidbody>() as Rigidbody;
+                NavMeshAgent nva = gameObject.AddComponent<UnityEngine.AI.NavMeshAgent>() as NavMeshAgent;
+                _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+                _navMeshAgent.autoRepath = true;
+            }
 
             //Debug.Log($"NavMeshAgent:{_navMeshAgent}");
-            _navMeshAgent.autoRepath = true;
-            _navMeshAgent.isStopped = true;
-            _navMeshAgent.updatePosition = false;
+            
 
             if(gironzola)
                 SetDestination();
@@ -71,8 +72,8 @@ public class Studente : MonoBehaviour
         {
             //Debug.Log(this.transform.Find("mixamorig:Hips/mixamorig:Spine/zaino"));
             //Destroy(this.transform.Find("mixamorig:Hips/mixamorig:Spine/zaino"));
-            Destroy(GetComponent<UnityEngine.AI.NavMeshAgent>());
-            Destroy(GetComponent<Rigidbody>());
+            //Destroy(GetComponent<UnityEngine.AI.NavMeshAgent>());
+            //Destroy(GetComponent<Rigidbody>());
             //_animator.SetBool("sit", true);
             _animator.Play("Sit", 0, Random.Range(0f, 0.5f));
         }
@@ -119,8 +120,9 @@ public class Studente : MonoBehaviour
     {
         if (this.gameObject.scene.name.Equals("Scena_Principale"))
         {
+            if (_navMeshAgent != null)
+                _speed = Mathf.Clamp(_navMeshAgent.desiredVelocity.magnitude, 0f, 1f);
 
-            _speed = Mathf.Clamp(_navMeshAgent.desiredVelocity.magnitude, 0f, 1f);
             _animator.SetFloat("speed", _speed);
             if (_animator.GetBool("clapping"))
             { 

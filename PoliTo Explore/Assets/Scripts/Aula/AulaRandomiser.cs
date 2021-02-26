@@ -59,7 +59,7 @@ public class AulaRandomiser : MonoBehaviour
                 int _index = Random.Range(0, _objectsToSpawn.Length - 1);
                 GameObject go = Instantiate(_objectsToSpawn[_index]);
 
-                Vector3 posStud = new Vector3(b.transform.position.x, b.transform.position.y, b.transform.position.z + 0.70281f);
+                Vector3 posStud = new Vector3(b.transform.position.x, b.transform.position.y, b.transform.position.z + 0.70281f - 0.2f);
                 go.transform.position = posStud; 
                 b.ApriSedia();
             }
