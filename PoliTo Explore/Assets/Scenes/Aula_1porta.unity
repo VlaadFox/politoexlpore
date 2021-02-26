@@ -8042,6 +8042,100 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 423091586}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &436735245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 436735249}
+  - component: {fileID: 436735248}
+  - component: {fileID: 436735247}
+  - component: {fileID: 436735246}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &436735246
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436735245}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &436735247
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436735245}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a01d846c7d5fcbe46825edde95063de1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &436735248
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436735245}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &436735249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436735245}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4, y: -1.2, z: 9.5}
+  m_LocalScale: {x: 43.885, y: 43.885, z: 43.885}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &440181817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10796,6 +10890,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: soffitto_11x7x1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759008610614637149, guid: 8a86e288c625b0b49a2f8b0cf207f36a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a86e288c625b0b49a2f8b0cf207f36a, type: 3}
@@ -15285,6 +15384,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: soffitto_11x7x1 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5759008610614637149, guid: 8a86e288c625b0b49a2f8b0cf207f36a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a86e288c625b0b49a2f8b0cf207f36a, type: 3}
 --- !u!4 &799956652 stripped
@@ -16184,6 +16288,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: soffitto_11x7x1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759008610614637149, guid: 8a86e288c625b0b49a2f8b0cf207f36a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a86e288c625b0b49a2f8b0cf207f36a, type: 3}
@@ -21064,6 +21173,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: soffitto_11x7x1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5759008610614637149, guid: 8a86e288c625b0b49a2f8b0cf207f36a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a86e288c625b0b49a2f8b0cf207f36a, type: 3}
 --- !u!4 &1071569153 stripped
@@ -22137,7 +22251,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1119285360}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: soffitto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25845,6 +25959,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: soffitto_11x7x1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5759008610614637149, guid: 8a86e288c625b0b49a2f8b0cf207f36a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a86e288c625b0b49a2f8b0cf207f36a, type: 3}
 --- !u!4 &1347702200 stripped
@@ -26444,6 +26563,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: soffitto_11x7x1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759008610614637149, guid: 8a86e288c625b0b49a2f8b0cf207f36a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a86e288c625b0b49a2f8b0cf207f36a, type: 3}
@@ -29628,6 +29752,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: soffitto_11x7x1
       objectReference: {fileID: 0}
+    - target: {fileID: 5759008610614637149, guid: 8a86e288c625b0b49a2f8b0cf207f36a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a86e288c625b0b49a2f8b0cf207f36a, type: 3}
 --- !u!4 &1563015677 stripped
@@ -30227,6 +30356,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: soffitto_11x7x1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759008610614637149, guid: 8a86e288c625b0b49a2f8b0cf207f36a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a86e288c625b0b49a2f8b0cf207f36a, type: 3}
@@ -31950,7 +32084,7 @@ PrefabInstance:
     - target: {fileID: 4566656722509025842, guid: 64e8395e1abaef342be1a1f7e5d638c4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4566656722509025842, guid: 64e8395e1abaef342be1a1f7e5d638c4,
         type: 3}
@@ -32408,7 +32542,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1732484988
 PrefabInstance:
@@ -35718,6 +35852,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: soffitto_11x7x1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5759008610614637149, guid: 8a86e288c625b0b49a2f8b0cf207f36a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a86e288c625b0b49a2f8b0cf207f36a, type: 3}
 --- !u!4 &1938752707 stripped
@@ -37700,6 +37839,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: soffitto_11x7x1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759008610614637149, guid: 8a86e288c625b0b49a2f8b0cf207f36a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a86e288c625b0b49a2f8b0cf207f36a, type: 3}
