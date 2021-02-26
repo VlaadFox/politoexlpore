@@ -56,6 +56,7 @@ public class Studente : MonoBehaviour
                 Rigidbody rb = gameObject.AddComponent<Rigidbody>() as Rigidbody;
                 NavMeshAgent nva = gameObject.AddComponent<UnityEngine.AI.NavMeshAgent>() as NavMeshAgent;
                 _navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+                _navMeshAgent.speed = 2f;
                 _navMeshAgent.autoRepath = true;
             }
 
@@ -72,8 +73,6 @@ public class Studente : MonoBehaviour
         {
             //Debug.Log(this.transform.Find("mixamorig:Hips/mixamorig:Spine/zaino"));
             //Destroy(this.transform.Find("mixamorig:Hips/mixamorig:Spine/zaino"));
-            //Destroy(GetComponent<UnityEngine.AI.NavMeshAgent>());
-            //Destroy(GetComponent<Rigidbody>());
             //_animator.SetBool("sit", true);
             _animator.Play("Sit", 0, Random.Range(0f, 0.5f));
         }
