@@ -48,7 +48,7 @@ public class Studente : MonoBehaviour
 
             if (!gironzola)
             {
-                Destroy(GetComponent<Rigidbody>());
+                //Destroy(GetComponent<Rigidbody>());
                 _animator.Play("Breathing Idle", 0, Random.Range(0f, 0.5f));
             }
             else
@@ -134,7 +134,9 @@ public class Studente : MonoBehaviour
                 else
                 {
                     _animator.SetBool("clapping", false);
-                    _navMeshAgent.isStopped = false;
+                    if (_navMeshAgent != null)
+                        _navMeshAgent.isStopped = false;
+
                     _animationCounter = cheerAnimationTime;
                     _animator.Play("Breathing Idle", 0, Random.Range(0f, 0.5f));
                 }
